@@ -41,3 +41,5 @@ Ebrima Touray
 * Relational Database(MYSQL)
 * Version Control System(Git and GitHub)
 * Deployment
+
+The goal is teach people to general programming concept first without using a any programming language in the first lesson `101-programming` then move in any desire programming language(either Java or JavaScript). So make sure you go through as I laid it out for you because I want to take you from zero to hero!
