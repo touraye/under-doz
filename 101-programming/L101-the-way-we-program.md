@@ -1,6 +1,6 @@
 # The Way We Program
 
-Thinking like a computer scientist, these way of thinking combine some of the best features of mathematics, engineering, and natural science. 
+Thinking like a computer scientist, this way of thinking combine some of the best features of mathematics, engineering, and natural science. 
 
 **Think like a mathematician:**
 
@@ -14,7 +14,7 @@ Computer scientist design things, assembling components into system and evaluate
 
 Computer scientist observe the behavior of a complex systems, form hypotheses, and test predictions. 
 
-The single most important skill for a computer scientist is problem solving. Problem solving means the ability to formulate problems, think creatively about solutions, and express a solution clearly and accurately. Learning how to program is nothing more than problem solving,
+The single most important skill for a computer scientist is problem-solving. Problem-solving means the ability to formulate problems, think creatively about solutions, and express a solution clearly and accurately. Learning how to program is nothing more than problem-solving,
 
 # Programming Languages
 
@@ -33,19 +33,21 @@ High-level language are English-liked text base which are every easy to write, r
 | They run directly by the computer                            | They are run by computer with the help of other programs     |
 | Only few specific program are written in low-level language  | Almost all the programs are written in high-level-language   |
 
-High-level language are in demand due numerous benefits. Hence programs written in high-level language are not directly understand by computers. Some other programs where developed to ease the situation, and these called **interpreter**, and **compiler**.
+High-level language are in demand due numerous benefits. Hence, programs written in high-level language are not directly understand by computers. Some other programs where developed to ease the situation, and these called **interpreter**, and **compiler**.
 
 ### Interpreter
 
-Interpreter reads programs written in high-level in sequence, reading line by line.
+Interpreter reads programs written in high-level in sequence, reading lines while performing computation. Example are JavaScript, Python etc.
 
 ### Compiler
 
-Compiler reads programs written in high-level languages, it does this by translating it before the program start running. Compiler translate the program which are written by the programmer(source codes) to object code aka executable which are later then run by the computer.
+Compiler reads the whole programs written in high-level languages, it does this by translating it before the program start running. Compiler translate the program which are written by the programmer(source codes) to object code aka executable which are later run by the computer.
 
 ## What is a program
 
-A program is sequence of instructions that tells a computer to perform a specific commands or computations. These commands or computations can be in a form of adding two number(mathematics), taking input from user and save it to the database, or displaying information to user device. Every other program out where have some things in common despite written in different languages.
+A program is sequence of instructions that tells a computer to perform a specific commands or computations. These commands or computations can be in a form of adding two number(mathematics), taking input from user and save it to the database, or displaying information to user device. Every other program out where have some things in common despite written in different languages. Languages that uses compiler are C, C++, Java etc.
+
+Below are common patterns which every program operators be it a few lines of codes or huge program:
 
 **input**: 
 
@@ -66,5 +68,4 @@ Programs do not just execute all together in most cases, certain condition will 
 **Repetition:**
 
 Program can keep repeating certain action over and over
-
-The above is common to every other program be it a small one or large and complicated program.  
+ 
