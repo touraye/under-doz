@@ -4,6 +4,10 @@ This course will introduce you to the core programming concepts without using an
 
 We will break things down into small modules and then into complex topics. The course will be fully hands-on meaning we will keep our hands dirty (learning by doing) throughout.
 
+The course materials provides some core fundamentals of programming. I intend it to serve a self-taught phase, meaning anyone who want to learn how to code and go through the course material in first lesson `101-programming`, and proceed to of their desired programming language. Here we will be looking the two most popular programming languages(Java, and JavaScript).
+
+If you have once coded I still encourage to through the first lesson as there is always room for improvement.
+
 **Prerequisite:** *No prior programming  knowledge is required as I will introduce you to programming, but you need to have a working computer(laptop) and basic computing skills, and a GitHub account*
 
 ## Author:
@@ -37,9 +41,6 @@ Ebrima Touray
 * Modern Web development
 * HTML, CSS
 * JavaScript and React.js
-* Database design and implementations
-* Relational Database(MYSQL)
+* Database design and implementations with MYSQL and MongoDB
 * Version Control System(Git and GitHub)
 * Deployment
-
-The goal is teach people to general programming concept first without using a any programming language in the first lesson `101-programming` then move in any desire programming language(either Java or JavaScript). So make sure you go through as I laid it out for you because I want to take you from zero to hero!
