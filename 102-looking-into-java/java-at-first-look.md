@@ -74,15 +74,15 @@ In steps:
 * You will see a list of sub-folder and files, among you, should see a folder with the name of the `bin`, open the `bin` folder
 * Inside the `bin` folder, there are lots of sub-folders and files. See the preview:
 * <img src="../assets/bin-folder.PNG"/>
-* Point your cursor(mouse) to the highlighted red color shown in the image above it will highlight everything in that address bar(think of it like how you copy a URL in your browser). `Ctrl+c` copy to highlighted text.
-* Now we have to go to our Environment variables, press the `Windows key,` and type `env` you see 'Edit the system environment variables, press on Enter key to open it
+* Click on the highlighted red color shown in the image above it will highlight everything in that address bar(think of it like how you copy a URL in your browser). `Ctrl+c` copy to highlighted text.
+* Now we have to go to our Environment variables, press the `Windows key,` and type `env` you see 'Edit the system environment variables', press on Enter key to open it
 * Advance tap will be selected by default, at the bottom you should see a button `Environment Variables` click on it another window will open.
-* There you will see the `User variable for pc-name`(this will set the path to the only logged use), and System Variables(will set the path for the entire e-system, and the user can access it). I prefer the `System Variable`.
-* On the `System, Variables` select the `path` and click the `edit` button. Another small window will pop up, but two ways are done depending on your system.
+* There you will see the `User variables `(this will set the path to the only logged user), and System Variables(will set the path for the entire system, and any user can access it). I prefer the `System Variables`.
+* On the `System, Variables` select the `path` and click the `edit button ` . Another small window will pop up. If your doesn't shows like the image below go to the second instructions after the image.
   * The way my system shows it: 
   * <img src="../assets/evn.PNG"/>
   * You might not see all of the paths like the above, but it's ok. Click the `New` button a text area will be below the path, paste using `Ctrl+v` then `Ok`.
-  * The other way; all the paths will appear in one line separated. The last path might not have an at the end, but if you have terminated it before you can add any other path after it.
+  * The other way; all the paths will appear in one line separated with a semicolon. The last path might not have asemicolon at end, but you have to put a semicolon before you can add any other path after it.
   * Add a to the last path, paste `Ctrl+v,` and then Ok. That's it.
 
 ### Verify Java 
@@ -99,7 +99,7 @@ These are for all Operating Systems. Let's see whether Java is successfully inst
 
 Before we finally install an Integrated Development Environment aka IDE to write and compile our Java code we will learn how to use the command line with a notepad to write our first Java program.
 
-Tip: If you're using Windows I highly recommend you download and install [git](hppt://git-scm.com) which comes with a `bash terminal the wWindowsPowerShell or the command prompt in some Window computer can run some bash commands. The `bash` is the default for Mc OS and Linux, for Mc and Linux life is good! 
+Tip: If you're using Windows I highly recommend you download and install [git](hppt://git-scm.com) which comes with a `bash terminal` the wWindowsPowerShell or the command prompt in some Window computer can run some bash commands. The `bash` is the default for Mc OS and Linux, for Mc and Linux life is good! 
 
 Let's get into it:
 
@@ -107,13 +107,13 @@ Let's get into it:
 
 * Open your terminal or git bash.
 
-* You want to make sure these two windows and next to each meaning:
+* You want to make sure these two windows and next to each meaning: both should be visible to you on your screen.
 
 * Type `cd` in your terminal or git bash then press on the spacebar to create a space
 
 * <img src="../assets/window-side-by-side.PNG"/>
 
-* Drag and drop your java folder in the terminal or git bash window. You should see something like this 'cd C:\Users\ebrima\Desktop\java' then click on enter key this should take you to the java directory.
+* Drag and drop your java folder in the terminal or git bash window. You should see something like this 'cd C:\Users\ebrima\Desktop\java' then click on enter key this should take you to the java directory/folder.
 
 * Let's confirm we are sitting in the right directory, type `pwd` and these should show up `/c/Users/ebrima/Desktop/java`. Off course a different username, mine is ebrima.
 
@@ -121,7 +121,7 @@ Let's get into it:
 
 * Run the `ls` command to see the file
 
-* You can double click on the file to open it with notepad or use the terminal by typing the name of your text editor and the file name with the file extension. `notepad Main.java` and enter.
+* You can double click on the file to open it with notepad in your file explorer or use the terminal by typing the name of your text editor and the file name with the file extension. `notepad Main.java` and enter.
 
 * Copy the following code snippets  and paste them into your file opened in notepad then `Ctrl+s` to save
 
@@ -149,7 +149,7 @@ Let's get into it:
   System.out.println(2+2)
   ```
 
-* Save it and go to your terminal and run `javac Main.java` to compile it again. Am sure this time an error is going to throw at you because we don't terminate the print statement we just added. May some of have spotted it!
+* Save it and go to your terminal and run `javac Main.java` to compile it again. Am sure this time an error is going to throw at you because we don't terminate `;` the print statement we just added. Have spotted it?
 
 * Correct the error, save it, compile it, and execute it you should see Hello World! and 4
 
