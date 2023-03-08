@@ -73,14 +73,14 @@ In steps:
 * You should see one folder named `jdk-17.0.4`, and open it suppose you've downloaded Java-17
 * You will see a list of sub-folder and files, among you, should see a folder with the name of the `bin`, open the `bin` folder
 * Inside the `bin` folder, there are lots of sub-folders and files. See the preview:
-* <img src="../assets/bin-folder.png"/>
+* <img src="../assets/bin-folder.PNG"/>
 * Point your cursor(mouse) to the highlighted red color shown in the image above it will highlight everything in that address bar(think of it like how you copy a URL in your browser). `Ctrl+c` copy to highlighted text.
 * Now we have to go to our Environment variables, press the `Windows key,` and type `env` you see 'Edit the system environment variables, press on Enter key to open it
 * Advance tap will be selected by default, at the bottom you should see a button `Environment Variables` click on it another window will open.
 * There you will see the `User variable for pc-name`(this will set the path to the only logged use), and System Variables(will set the path for the entire e-system, and the user can access it). I prefer the `System Variable`.
 * On the `System, Variables` select the `path` and click the `edit` button. Another small window will pop up, but two ways are done depending on your system.
   * The way my system shows it: 
-  * <img src="../assets/evn.png"/>
+  * <img src="../assets/evn.PNG"/>
   * You might not see all of the paths like the above, but it's ok. Click the `New` button a text area will be below the path, paste using `Ctrl+v` then `Ok`.
   * The other way; all the paths will appear in one line separated. The last path might not have an at the end, but if you have terminated it before you can add any other path after it.
   * Add a to the last path, paste `Ctrl+v,` and then Ok. That's it.
@@ -111,7 +111,7 @@ Let's get into it:
 
 * Type `cd` in your terminal or git bash then press on the spacebar to create a space
 
-* <img src="../assets/window-side-by-side.png"/>
+* <img src="../assets/window-side-by-side.PNG"/>
 
 * Drag and drop your java folder in the terminal or git bash window. You should see something like this 'cd C:\Users\ebrima\Desktop\java' then click on enter key this should take you to the java directory.
 
