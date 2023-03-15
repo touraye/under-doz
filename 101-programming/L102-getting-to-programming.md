@@ -27,9 +27,9 @@ We will cover about values and types in the coming lessons in respective program
 
 ## The Variable Concept
 
-In a computer we can create container to store values(files) and sub-folder. Folders are the container that we use to store other related values either files and sub-folders. If you create a folder or file it is stored into your hard-drive. Our program also behave in a similar manner.
+In a computer we can create container to store values(files) and sub-folder. Folders are the container that we use to store other related values either files or sub-folders. If you create a folder or file it is stored into computer's hard-drive. Our program also behave in a similar manner.
 
-We all interact with a programs and provide them with some information. But, how those a program store this information given by a user? A program in itself have created containers to store information of the user and display this information which are stored in the containers. These containers are called a `variables` in a program.
+We all interacts with a programs and provide them with some information. But, how those a program store this information given by a user? A program in itself have created containers to store information of the user. These containers are called a `variables` in a program. They can be 'variables' within the program or an external source called a database.
 
 ### What is a Variable
 
@@ -52,10 +52,10 @@ In programming, we have special symbols to carry out some operations(computation
 
 #### Types of Operators
 
-* Assignment operator: these assign `=` a value to a variable
+* Assignment operator `=`: these assign a value to a variable
 * Arithmetic operators: they are used to performing arithmetic operations on values. example are addition, multiplication, division, subtraction, and module or reminder
 * Comparison or Relational operator: they are used to compared values(or variables). examples are greater than, less than, equal to, greater than or equals to, less than or equals to, and not equals to.
-* Logical operator: they are used to applying logics to values or variables. examples are AND, OR, and NOT.
+* Logical operator: they are used to applying logics(conditions) to values or variables. examples are AND, OR, and NOT.
 * Ternary operator: is the only conditional operator that take three operands. It can be used to replace `if and else` or `switch`. `10 > 9 ? 'do something' : 'do something;'
 * Unary operator: these type of operator act on only one value meaning it has one operand. `10++ or ++10`
 
@@ -65,11 +65,11 @@ An operand is a value(or a variable name) which an operator act upon. `3 + 2 ` w
 
 ## Expression
 
-Expression plays a very important role in programming. We use expression to generate new values, assign value to a variable. An expression comprises `values`, `variables`, `operators`, or simple `methods call`.
+Expression plays a very important role in programming. We use expression to generate new values, assign value to a variable. An expression comprises `value`, `variable`, `operator`, or simple `method call`.
 
 ## Statement
 
-A statement is a simple instruction that will command a computer to carry out a particular task. This includes variable, value, operator, and an expression as well. In some languages every statement is terminated with a semicolon while others no termination is required.
+A statement is a simple instruction that gives command to a computer to carry out a particular task. This includes variable, value, operator, and an expression as well. In some languages every statement is terminated with a semicolon while others no termination is required.
 
 #### Types of statements
 
@@ -81,13 +81,13 @@ A statement is a simple instruction that will command a computer to carry out a 
 
 ## Algorithm
 
-Solving a problem with code need a considerable steps and these steps have to perform in a sequence that will give desirable output. For example a program that prompt a user to enter their name and display it to the screen. Well the first thing to do is to ask the user to enter their name then take that value and display it to the screen otherwise the program will not perform correctly.
+Solving a problem with code need a considerable steps and these steps have to perform in a sequence that will give desirable output. For example a program that prompt a user to enter their name and display it to the screen. Well, the first thing to do is to ask the user to enter their name then take that value and display it to the screen otherwise the program will not perform correctly.
 
 In a simple tern an **Algorithm** is an action taken by a programmer to solve a problem in a specific other. **Action** are the `statement`, `expression`, and **Order** is how you place your `statements` and `expressions`.
 
 ## Errors and Exceptions 
 
-An illegal token or  a misbehavior in a program what refers to as an error. These errors can be violating the rule of the programming language syntax, logical or a runtime error. type of error in programming:
+An illegal token or  a misbehavior in a program refers to an error. These errors can be violating the rule of the programming language syntax, logical or a runtime error. type of error in programming:
 
 #### Syntax Error 
 
@@ -97,7 +97,7 @@ All programming language have certain reserve word which cannot be use by progra
 
 #### Logical Error
 
-This kind of error will not prevent the program from executing rather the program will output what was intended the programmer. example a programmer writes a program to add two number instead of put `+` the programmer use `*` operator. This kind of error is very hard to detect especially in a large program.
+This kind of error will not prevent the program from executing rather the program will not output what was intended by the programmer. example a programmer writes a program to add two number instead of put `+` the programmer use `*` operator. This kind of error is very hard to detect especially in a large program.
 
 #### Runtime Error
 
@@ -107,4 +107,4 @@ As the name says **runtime error**, these kind errors occur when the program sta
 
 ## Debugging
 
-The stage of find error in a program is refers to as debugging, error are call bugs in software code. This is one thing a programmer will always be doing, it can be frustrating at the early stage of your coding journey. Believe it or not, the more good you are with debugging the better you become with programming. 
+The stage of finding error in a program is refers to as debugging, error are called bugs in software code. This is one thing a programmer will always be doing, it can be frustrating at the early stage of your coding journey. Believe it or not, the more good you are with debugging the better you become with programming. 
