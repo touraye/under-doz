@@ -269,3 +269,90 @@ Literal in Java:
 * Character literal `char gender = 'm';`
 * String literal `String name = "Mariama";`
 * Boolean literal `boolean flag = true`medium
+
+## What is a Variable
+
+We have discus broadly about variable concept in the prevision lessons now lets see it in Java. A   variable in Java can be really different hence Java static type language.
+
+Well, what do mean by that? In a static type language a variable most a data type. Java is a static type language which why before you can give a variable a name or a value you have specify the data type.
+
+```java
+String course = "Java programming";
+```
+
+Lets extract the components from the statement above:
+
+* `String` is a data type 
+* `course` is a name of a variable
+* `=` is an assignment operator
+* `"Java programming"` is a value
+* `;`is a termination
+
+There are two way creating a variable:
+
+1. Initialize a variable: a variable will have an initial value
+2. Declare a variable: not initial value is given
+
+### Initializing a Variable
+
+These when decide to give a value to a variable right at creation time
+
+```java
+//to initialize a variable
+int age = 20;
+```
+
+### Declaring a  Variable
+
+In your program you can create a variable without an initial value
+
+```java
+//to declare a variable
+int amount;
+```
+
+### Reassigning a Variable
+
+In the above we have created a variable `amount` and give it no value. When creating the `amount` we don't have a value for it but we have specific a type for it. 
+
+Now we want to give `amount` variable a value:
+
+```java
+amount = 200;
+```
+
+reassigning a variable is not limited to only declared variable, but even the ones with initial value:
+
+```java
+age = 21;
+```
+
+Java update the `age` variable with a new value.
+
+If you print `age` to the console you should see 21 instead of 20
+
+## Naming Convention
+
+It is a good practice to give your variables, methods, and classes names which relate to what they do or the value they store in them. Java doesn't care about the way the you name your variables, methods, or classes.
+
+Imagine in your program you are to store student gpa in a variable:
+
+```java
+double gpa = 4.0;
+double studentGpa = 3.50;
+```
+
+ Why are joining two words together? Is gpa not enough?
+
+Well, variable, methods, and class names should be descriptive. Joining words together to form a descriptive name is a good way of programming, and these way joining words to form a long name is called *camel casing*. Java support other casing like *snake casing* that will require using an underscore `student_gpa`. Anyways, *camel casing* is the convention in Java.
+
+After completing the part i expect you to have a solid understanding of data type in Java, the two different data types in Java, how ways of creating a variable, reassigning a variable, and how to give variable good names. In that note I challenge you to develop a Java Application that looks below:
+
+Your first name, last name, and the name of your course. Remember best naming convention in Java!
+
+```java
+Alieu
+Saidy
+I am learning Java
+```
+
