@@ -107,13 +107,4 @@ We look into all the mentioned above statements later in the course.
 
 A expression can be as simple as adding two number, assigning a variable to a value.
 
-In Java program expressions plays a very important role. We use expression to generate new values, assign value to a variable. An expression comprises `values`, `variables`, `operators`, or simple `methods calls`
-
-### Expression Statement
-
-In the code snippets below are some examples of expression statement.
-
-```java
-
-```
-
+In Java, expressions plays a very important role. We use expression to generate new values, assign value to a variable. An expression comprises `values`, `variables`, `operators`, or simple `methods calls`
