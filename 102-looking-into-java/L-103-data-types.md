@@ -295,7 +295,9 @@ There are two way creating a variable:
 
 ### Initializing a Variable
 
-These when decide to give a value to a variable right at creation time
+These is when decide to give a value to a variable right at creation time or in another word assign a value to a variable.
+
+The first operator we are dealing with is the assignment operator `=`
 
 ```java
 //to initialize a variable
@@ -345,6 +347,8 @@ double studentGpa = 3.50;
  Why are joining two words together? Is gpa not enough?
 
 Well, variable, methods, and class names should be descriptive. Joining words together to form a descriptive name is a good way of programming, and these way joining words to form a long name is called *camel casing*. Java support other casing like *snake casing* that will require using an underscore `student_gpa`. Anyways, *camel casing* is the convention in Java.
+
+## Exercise 102
 
 After completing the part i expect you to have a solid understanding of data type in Java, the two different data types in Java, how ways of creating a variable, reassigning a variable, and how to give variable good names. In that note I challenge you to develop a Java Application that looks below:
 
