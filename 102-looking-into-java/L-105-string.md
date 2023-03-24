@@ -2,7 +2,7 @@
 
 String belong to non-primitive data type. String and other non-primitive have predefined methods on them which can be really useful to us.
 
-Before we move into String let's look at concatenation. Concatenation is process of printing a String within a double quotation along with a variable or an expression.
+Before we move into String let's look at **concatenation**. Concatenation is process of printing a String within a double quotation along with a variable or an expression.
 
 Let's see we can make concatenation in Java: 
 
@@ -94,3 +94,31 @@ Let's look at some of the String methods in java. You can find on the internet!
 
 Note! *we use dot, `.` to access the available method on String. Every method has a return type(on the left hand-side) be sure to check the return type of a method before using it*
 
+## Exercise 102
+
+Develop a simple Java application that will display your information:
+
+* Create a variable `firstName` to store your first name value
+* Create a variable `secondName` to store your second name value
+* Create a variable `age` to store your age value
+* Create a variable `gender` to store your gender value
+* Create a variable `isWorking` to store your is working value.
+
+Note! *use the appropriate data type for each variables above*
+
+Your program should look like:
+
+```java
+First Name: Alieu
+Last Name: Saidy
+Middle Name:
+Age: 7
+Gender: m
+Is working: false
+Their are 4 characters found in Alieu
+The first character in Alieu is A
+```
+
+Tips: Use the concatenation technique, and apply to String method
+
+Happy Coding.
