@@ -84,13 +84,13 @@ Let's look at some of the String methods in java. You can find on the internet!
 | --------------------------- | ----------- | ------------------------------------------------------------ |
 | `length()` method           | integer     | count the number of characters in a String                   |
 | `isEmpty()` method          | boolean     | check whether the String contain any character               |
-| `charAt()` method           | char        | It takes a parameter of type integer, return element at a certain position if found otherwise error. index start from `0` |
-| `contain()` method          | boolean     | it takes a char as a parameter, and check within the whole String whether the provided character is found return true if found otherwise false |
+| `charAt()` method           | char        | It takes a argument of type integer, return element at a certain position if found otherwise error. index start from `0` |
+| `contain()` method          | boolean     | it takes a char as a argument, and check within the whole String whether the provided character is found return true if found otherwise false |
 | `toUpperCase()` method      | String      | Change all the characters in a String  to capital letters    |
 | `toLowerCase()` method      | String      | Change all the characters in a String to lower case letters. |
-| `equals()` method           | boolean     | This method takes a String as parameter, return true if the provided parameter is found in the String otherwise false. This method is case sensitive |
+| `equals()` method           | boolean     | This method takes a String as argument, return true if the provided argument is found in the String otherwise false. This method is case sensitive |
 | `equalsIgnoreCase()` method | boolean     | This method is the same the above one `equals()`. The only it relax the case checking. |
-| `m.substring()`             | String      | This method takes two parameters(integer), first is the index you are starting and second is not actually the index you are going to stop, but rather `-1` of that. If the last parameter is `4` it will stop at `3` meaning last index exclusive, first index inclusive. |
+| `m.substring()`             | String      | This method takes two arguments(integer), first is the index you are starting and second is not actually the index you are going to stop, but rather `-1` of that. If the last argument is `4` it will stop at `3` meaning last index exclusive, first index inclusive. |
 
 Note! *we use dot, `.` to access the available method on String. Every method has a return type(on the left hand-side) be sure to check the return type of a method before using it*
 
