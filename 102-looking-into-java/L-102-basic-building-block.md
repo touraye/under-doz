@@ -54,7 +54,7 @@ Main method comprises of the following:
 * Specifier `static`
 * Specifier `void`
 * Identifier name of the method `main`
-* Parenthesis `()` with some parameters `String[] args`
+* Parenthesis `()` with some argument `String[] args`
 * Block of code `{}` opening brace and a closing brace
 
 Note: *Any code within the opening brace and the closing brace of the main method is going to get executed when you run your program*
