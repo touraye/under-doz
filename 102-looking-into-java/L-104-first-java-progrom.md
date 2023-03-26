@@ -28,15 +28,15 @@ Congrats for developing your first Java App! let's look into our Java App in det
 * Line number 2 is our main method
 * Line number 3 is a print statement with a text.
 
-A print statement is going one of our most use statement as far our studies for Java is concern. Every time you want to print to the console you have to use to the print statement. 
+A print statement is going to be one of our most use statement as far our studies for Java is concern. Every time you want to print to the console you have to use to the print statement. 
 
 Uses of print statement:
 
 1. You can use a print statement to print series of characters like the above example.
 
-2. You can write some put a variable name in the print name and it's value will printed to the console
+2. You can put a variable name in the print statement and it's value will printed to the console
 
-3. You put a String and variable in one print statement.
+3. You can put a String and variable in one print statement.
 
 4. You can write a expression in print statement
 
