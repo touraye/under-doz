@@ -159,4 +159,8 @@ Well, learning Java really requires having an IDE(integrated development environ
 
 I will be using IntelliJ IDE, but you can use any IDE of your choice. To download IntelliJ [navigate to the official site](https://www.jetbrains.com/idea/download/#section=windows), and make sure your download the Community Edition(free for everyone to download and use, the ultimate is paid).
 
-Upon installing IntelliJ IDE you check 'set path, and check java for language'. That should be good
+Upon installing IntelliJ IDE you check 'set path, and check java for language'. That should be good.
+
+[Next lesson](https://github.com/touraye/under-doz/blob/main/102-looking-into-java/L-102-basic-building-block.md)
+
+[Previous lesson](https://github.com/touraye/under-doz/blob/main/101-programming/L102-getting-to-programming.md)
