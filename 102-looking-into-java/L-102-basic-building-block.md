@@ -124,3 +124,6 @@ Some of the keywords in Java:
 
 Just to name a few, you lookup on [w3school](https://www.w3schools.com/java/java_ref_keywords.asp)
 
+[Next lesson](https://github.com/touraye/under-doz/blob/main/102-looking-into-java/L-103-data-types.md)
+
+[Previous lesson](https://github.com/touraye/under-doz/blob/main/102-looking-into-java/L-101-java-at-first-look.md)
