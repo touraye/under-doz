@@ -360,3 +360,8 @@ Saidy
 I am learning Java
 ```
 
+
+
+[Next lesson](https://github.com/touraye/under-doz/blob/main/102-looking-into-java/L-104-first-java-progrom.md)
+
+[Previous lesson](https://github.com/touraye/under-doz/blob/main/102-looking-into-java/L-102-basic-building-block.md)

@@ -122,3 +122,7 @@ The first character in Alieu is A
 Tips: Use the concatenation technique, and apply to String method
 
 Happy Coding.
+
+[Next lesson](https://github.com/touraye/under-doz/blob/main/102-looking-into-java/L-106-Arithmetic-operation-and-math-class.md)
+
+[Previous lesson](https://github.com/touraye/under-doz/blob/main/102-looking-into-java/L-104-first-java-progrom.md)

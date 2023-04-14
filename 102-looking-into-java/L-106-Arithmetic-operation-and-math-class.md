@@ -103,3 +103,9 @@ double amount = 1200;
 System.out.println("Amount: GMD" +String.format("%,.2f", amount));
 // Amount: GMD1,200.00
 ```
+
+
+
+[Next lesson](https://github.com/touraye/under-doz/blob/main/102-looking-into-java/L-107-cash-power-app.md)
+
+[Previous lesson](https://github.com/touraye/under-doz/blob/main/102-looking-into-java/L-105-string.md)
