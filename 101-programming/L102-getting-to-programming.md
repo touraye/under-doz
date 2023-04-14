@@ -108,3 +108,9 @@ As the name says **runtime error**, these kind errors occur when the program sta
 ## Debugging
 
 The stage of finding error in a program is refers to as debugging, error are called bugs in software code. This is one thing a programmer will always be doing, it can be frustrating at the early stage of your coding journey. Believe it or not, the more good you are with debugging the better you become with programming. 
+
+
+
+[Next lesson](https://github.com/touraye/under-doz/blob/main/102-looking-into-java/L-101-java-at-first-look.md)
+
+[Previous lesson](https://github.com/touraye/under-doz/blob/main/101-programming/L101-the-way-we-program.md)
