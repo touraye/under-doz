@@ -473,7 +473,7 @@ If you try with option `b` for withdrawal and enter any desired amount you will 
 
 Congratulations on making this far!
 
-[Next lesson](https://github)
+[Next lesson](https://github.com/touraye/under-doz/blob/main/102-looking-into-java/L-109-iterations.md)
 
-[Previous lesson](https://www.git)
+[Previous lesson](https://github.com/touraye/under-doz/blob/main/102-looking-into-java/L-107-cash-power-app.md)
 
