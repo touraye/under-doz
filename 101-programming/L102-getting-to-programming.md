@@ -1,10 +1,12 @@
 # Getting In To Programming
 
-As we cover some fundamentals of programming in lesson-1(L101) here we will take a deep dive into some key components of programming.
+In Lesson-1 (L101), we covered some fundamentals of programming. Now, let's delve deeper into key components of programming.
 
-Here I is just want to keep it beginner-friendly.
+Here, I just want to keep it beginner-friendly.
 
-Prerequisite: No prior programming knowledge is required
+Prerequisite: There is no need for prior programming knowledge.
+
+
 
 [TOC]
 
@@ -12,52 +14,52 @@ Prerequisite: No prior programming knowledge is required
 
 ## Values and Types
 
-A value is one of the basic thing a program works with, like a letter or a number. a letter can be a person name and number can be a money value.
+A value is one of the basic elements that a program operates with, such as a letter or a number. A letter can represent a person's name, and a number can represent a monetary value.
 
-These values which a program interact with are of different types. We all know a text is not the same with a number, so that's there types come in to play. There are many types for a value as far as programming is concern.
+The values with which a program interacts come in various types. Text is distinct from a numerical value, so different types come into play. In programming, there are numerous types for values.
 
 #### Different Types or Data Types
 
-* A value which takes a text is considered to be of type `string`, string mean series of characters like "lamin" in some programming language and double quotes while others there in single quotes.
-* a value of type number can also be subdivided into two or more like whole number and a decimal number.
-* There are other values of type different from text or number like in the case of `yes or no` situation. Well in programming we denote these with `true or false`.
-* There are another types which can store more than one value like `array` or an `object`
+* A value that takes a text is considered to be of type 'string'. A string refers to a series of characters, such as "Lamin" in some programming languages, enclosed in double quotes or, in some cases, single quotes.
+* A value of type 'number' can also be further subdivided into categories like whole numbers and decimal numbers.
+* There are other value types distinct from text or numbers, such as in a 'yes or no' situation. In programming, we represent these with 'true or false'.
+* Another type allows for the storage of more than one value, such as an 'array' or an 'object'.
 
-We will cover about values and types in the coming lessons in respective programming languages.
+In the lessons to come, we will explore values and types.
 
 ## The Variable Concept
 
-In a computer we can create container to store values(files) and sub-folder. Folders are the container that we use to store other related values either files or sub-folders. If you create a folder or file it is stored into computer's hard-drive. Our program also behave in a similar manner.
+In a computer, we have the ability to create containers for storing values (files) and sub-folders. Folders act as containers used to store other related values, be they files or sub-folders. When you create a folder or file, it is stored on the computer's hard drive. Our program follows a similar behavior.
 
-We all interacts with a programs and provide them with some information. But, how those a program store this information given by a user? A program in itself have created containers to store information of the user. These containers are called a `variables` in a program. They can be 'variables' within the program or an external source called a database.
+We all interact with programs and provide them with information. However, have you ever wondered how a program stores the information given by a user? Programs create containers to store user information, and these containers are referred to as 'variables' within the program. These variables can exist either within the program or in an external source known as a database.
 
 ### What is a Variable
 
-Variable is a store or container that hold a value inside a program. These values can be a name of a person, age of a person, bank-account balance, a truthy or a falsely value etc. The term `variable` means that the value can vary meaning it can change. But, not all the values of a variable can be change in the scope of the program some do not change their values when created, but in most case they do.
+A variable is a storage or container within a program that holds a value. These values can represent various information such as a person's name, age, bank account balance, or a truthy or falsely value. The term 'variable' implies that the stored value can vary, meaning it can change. However, not all variable values can be changed within the scope of the program; some remain constant once created, though in most cases, they are subject to change.
 
-Variable has a type in some programming languages while in other variables are not consider to have a type. This refers to as `static and dynamic` type.
+In certain programming languages, variables are assigned a type, whereas in others, variables are not designated with a specific type. This distinction is often referred to as 'static and dynamic' typing.
 
 #### Static Type Languages:
 
- Variable most a have a predefined type for example if you are to create a variable that will store a person's name obviously the type is going to be a `string`, likewise a person age is going to be a number type. example of static type language is Java
+ Most variables must have a predefined type. For instance, if you create a variable to store a person's name, its type will be 'string,' and similarly, a person's age will be of the 'number' type. An example of a static-type language is Java.
 
 #### Dynamic Type Languages:
 
-In these type of languages type-checking is very loose, it does not care about the type of variable, it can store a `string` value at one time and can store a `number` at another time. Example of these type of language are JavaScript, Python etc.
+In such languages, type-checking is very lose; it does not concern itself with variable types. A variable can hold a 'string' value at one moment and a 'number' at another. Examples of such languages include JavaScript, Python, etc.
 
 ## Operator and Operand
 
 ### Operator 
-In programming, we have special symbols to carry out some operations(computation like addition, subtraction, division, multiplication or even assigning value to a variable etc.). These symbols are driven from Mathematics, but some are called differently and have different use cases in programming. An Operator act on operands; by these a new value is produce,  a new value can be assigned to a variable, a new value can be reassigned to variable.
+In programming, specific symbols are utilized to perform various operations such as addition, subtraction, division, multiplication, and the assignment of values to variables. While these symbols are inspired by mathematics, they are sometimes referred to by different names and serve distinct purposes in programming. Operators operate on operands, producing new values that can be assigned or reassigned to variables.
 
 #### Types of Operators
 
-* Assignment operator `=`: these assign a value to a variable
-* Arithmetic operators: they are used to performing arithmetic operations on values. example are addition, multiplication, division, subtraction, and module or reminder
-* Comparison or Relational operator: they are used to compared values(or variables). examples are greater than, less than, equal to, greater than or equals to, less than or equals to, and not equals to.
-* Logical operator: they are used to applying logics(conditions) to values or variables. examples are AND, OR, and NOT.
-* Ternary operator: is the only conditional operator that take three operands. It can be used to replace `if and else` or `switch`. `10 > 9 ? 'do something' : 'do something;'
-* Unary operator: these type of operator act on only one value meaning it has one operand. `10++ or ++10`
+* The assignment operator `=` is used to assign a value to a variable.
+* Arithmetic operators perform arithmetic operations on values. Examples include addition, multiplication, division, subtraction, and modulus or remainder.
+* Comparison or Relational operators are used to compare values (or variables). Examples include greater than, less than, equal to, greater than or equal to, less than or equal to, and not equal to.
+* Logical operators apply logic (conditions) to values or variables. Examples include AND, OR, and NOT.
+* The ternary operator is the only conditional operator that takes three operands. It can be used to replace `if` and `else` or `switch`. Example: `10 > 9 ? 'do something' : 'do something;'`
+* Unary operators act on only one value, meaning they have one operand. Examples include `10++` or `++10`.
 
 ### Operand
 
@@ -71,10 +73,12 @@ Expression plays a very important role in programming. We use expression to gene
 
 A statement is a simple instruction that gives command to a computer to carry out a particular task. This includes variable, value, operator, and an expression as well. In some languages every statement is terminated with a semicolon while others no termination is required.
 
-#### Types of statements
+#### Types of statements in Programming
 
 * Expression statement
 * Declaration statement
+* Continue Statement
+* Compound Statement
 * Selection statement
 * Loop or Iterative statement
 * Flow control or  jump statement
@@ -103,7 +107,7 @@ This kind of error will not prevent the program from executing rather the progra
 
 As the name says **runtime error**, these kind errors occur when the program starts to running, and they are also called exception. A programmer can therefor write an exception to anticipate any feature exceptions. There kind of error will stop the program from executing.
 
-
+A Key Note: All the above mention are general programming concepts, they are applicable in a all programming languages. The only difference is that each programming languages have their implementations.
 
 ## Debugging
 
