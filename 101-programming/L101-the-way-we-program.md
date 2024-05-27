@@ -20,6 +20,8 @@ In programming, **syntax** refers to the set of rules that dictate how programs 
 
 **Parsing** in a programming language involves analyzing the structure of the source code to determine its syntactic correctness according to the language's grammar rules.
 
+
+
 # Programming Languages
 
 Humans communicate with each other using natural languages such as English, Arabic, Chinese, etc. On the contrary, computers comprehend only zeros and ones (binary), known as Machine language or assembly language, also referred to as a low-level language. High-level languages are not directly understood by computers; they need to undergo certain processes.

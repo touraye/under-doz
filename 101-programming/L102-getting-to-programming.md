@@ -73,11 +73,13 @@ Expression plays a very important role in programming. We use expression to gene
 
 A statement is a simple instruction that gives command to a computer to carry out a particular task. This includes variable, value, operator, and an expression as well. In some languages every statement is terminated with a semicolon while others no termination is required.
 
-#### Types of statements
+#### Types of statements in Programming
 
 * Expression statement
 * Declaration statement
 * Block Statement
+* Continue Statement
+* Compound Statement
 * Selection statement
 * Loop or Iterative statement
 * Flow control or  jump statement
