@@ -2,6 +2,16 @@
 
 In [lesson-101]() we talked about the common patterns found in almost every software, and these patterns are input, output, math, condition, and repetition. In the previous lessons we looked at all the other patterns expect repetition.
 
+What to learn:
+
+* You will learn about the inter working of loops
+* You will learn about `for` loop and how to implement it
+* You will learn about `while` loop and how to implement it
+* You will learn about `do while` loop and how to implement it
+* You be able to use all the three types of loop to solve similar problem
+* At the end you will learn about their use cases and as well as their limitations.
+* Refactoring Cash Power Application including the new feature learned from the lesson.
+
 Printing a message to the console two times can be simply done by write a print statement twice. But, what of a hundred times. How many times will you write a print statement in your program, will you even do it correctly?
 
 ## Loop
@@ -199,7 +209,7 @@ The above code snippets  we start off with:
 1. A variable that control the loop, it's initial value is `1`
 2. A condition within a parenthesis that compare the variable that controls the loop against `10`, the condition `count <= 10` is true
 3. In the body there is a print statement that print the value of `count`, and an expression that update `count` variable every time the loop execute/run
-4. This two expression statements will keep repeating over and over until `count <= 10` becomes `false`
+4. This two statements within the body of the while loop will keep repeating over and over until `count <= 10` becomes `false`
 
 Let's use a `while loop` to print from `0 - 10` and use an if statement to determine which numbers are even and odd number.
 
@@ -214,7 +224,7 @@ while(count <= 10){
 }
 ```
 
-*Those Java accept code indentation like Python? Well this is not acceptable in Java try to wrap your if statement in curly brace*
+*Never forgot about `count++`* 
 
 ## Do While Loop
 
@@ -259,7 +269,7 @@ for (int i = 1; i <= 3; i++){
 }
 ```
 
-With a `for loop` user will be prompted to enter their credentials if they have entered the right credentials a welcome message will be printed in the console, and the program will terminate right there. And, if they fail for the first time they will be given two more chances to try with each an error message will be printed to the console. Remember the loop will run for only three times.
+With a `for loop` user will be prompted to enter their credentials if they have entered the right credentials a welcome message will be printed in the console, and the program will terminate right there because of the `break` statement. And, if they fail for the first time they will be given two more chances to try with each an error message will be printed to the console. Remember the loop will run for only three times.
 
 ### While Loop
 
@@ -358,6 +368,7 @@ Let's add this new features to our Cash Power App:
 *Note! adding a new feature to your existing working code-base need is step by step thing*
 
 - [x] **Feature 1** 
+- [ ] Keep the service running
 
 ```java
 import java.text.DecimalFormat;
@@ -374,11 +385,11 @@ public class CashPowerApp {
         DecimalFormat decimalFormat = new DecimalFormat("0.00");
         Random random = new Random();
 
-        int random4Digits1 =  random.nextInt((9999 - 100) + 10) + 10;
-        int random4Digits2 =  random.nextInt((9999 - 100) + 10) + 10;
-        int random4Digits3 =  random.nextInt((9999 - 100) + 10) + 10;
-        int random4Digits4 =  random.nextInt((9999 - 100) + 10) + 10;
-        int random4Digits5 =  random.nextInt((9999 - 100) + 10) + 10;
+        int random4Digits1 =  random.nextInt(9000) + 1000;
+        int random4Digits2 =  random.nextInt(9000) + 1000;
+        int random4Digits3 =  random.nextInt(9000) + 1000;
+        int random4Digits4 =  random.nextInt(9000) + 1000;
+        int random4Digits5 =  random.nextInt(9000) + 1000;
 
         String tokens = random4Digits1+ " " +random4Digits2+ " " +random4Digits3+ " " +random4Digits4+ " " +random4Digits5;
 
@@ -433,6 +444,8 @@ Run your App you will be able to sell cash power as long as you wish.
 
 - [x] **Feature 2** 
 
+- [ ] Prompt the user
+
   ```java
   import java.text.DecimalFormat;
   import java.time.LocalDateTime;
@@ -448,11 +461,11 @@ Run your App you will be able to sell cash power as long as you wish.
           DecimalFormat decimalFormat = new DecimalFormat("0.00");
           Random random = new Random();
   
-          int random4Digits1 =  random.nextInt((9999 - 100) + 10) + 10;
-          int random4Digits2 =  random.nextInt((9999 - 100) + 10) + 10;
-          int random4Digits3 =  random.nextInt((9999 - 100) + 10) + 10;
-          int random4Digits4 =  random.nextInt((9999 - 100) + 10) + 10;
-          int random4Digits5 =  random.nextInt((9999 - 100) + 10) + 10;
+  	int random4Digits1 = random.nextInt(9000) + 1000;
+      int random4Digits2 = random.nextInt(9000) + 1000;
+      int random4Digits3 = random.nextInt(9000) +1000;
+      int random4Digits4 = random.nextInt(9000) + 1000;
+      int random4Digits5 = random.nextInt(9000) + 1000;
   
           String tokens = random4Digits1+ " " +random4Digits2+ " " +random4Digits3+ " " +random4Digits4+ " " +random4Digits5;
   
@@ -531,11 +544,11 @@ User is prompt after selling cash power.
           DecimalFormat decimalFormat = new DecimalFormat("0.00");
           Random random = new Random();
   
-          int random4Digits1 =  random.nextInt((9999 - 100) + 10) + 10;
-          int random4Digits2 =  random.nextInt((9999 - 100) + 10) + 10;
-          int random4Digits3 =  random.nextInt((9999 - 100) + 10) + 10;
-          int random4Digits4 =  random.nextInt((9999 - 100) + 10) + 10;
-          int random4Digits5 =  random.nextInt((9999 - 100) + 10) + 10;
+     int random4Digits1 = random.nextInt(9000) + 1000;
+     int random4Digits2 = random.nextInt(9000) + 1000;
+     int random4Digits3 = random.nextInt(9000) + 1000;
+     int random4Digits4 = random.nextInt(9000) + 1000;
+     int random4Digits5 = random.nextInt(9000) + 1000;
   
           String tokens = random4Digits1+ " " +random4Digits2+ " " +random4Digits3+ " " +random4Digits4+ " " +random4Digits5;
   
@@ -615,11 +628,11 @@ User is prompt after selling cash power.
           DecimalFormat decimalFormat = new DecimalFormat("0.00");
           Random random = new Random();
   
-          int random4Digits1 =  random.nextInt((9999 - 100) + 10) + 10;
-          int random4Digits2 =  random.nextInt((9999 - 100) + 10) + 10;
-          int random4Digits3 =  random.nextInt((9999 - 100) + 10) + 10;
-          int random4Digits4 =  random.nextInt((9999 - 100) + 10) + 10;
-          int random4Digits5 =  random.nextInt((9999 - 100) + 10) + 10;
+     int random4Digits1 = random.nextInt(9000) + 1000;
+     int random4Digits2 = random.nextInt(9000) + 1000;
+     int random4Digits3 = random.nextInt(9000) + 1000;
+     int random4Digits4 = random.nextInt(9000) + 1000;
+     int random4Digits5 = random.nextInt(9000) + 1000;
   
           String tokens = random4Digits1+ " " +random4Digits2+ " " +random4Digits3+ " " +random4Digits4+ " " +random4Digits5;
   
@@ -633,7 +646,7 @@ User is prompt after selling cash power.
           double powerAmount;
           double totalUnits;
   
-          double totalDailySales = 0;
+          double dailySale = 0;
           boolean flag = true;
   
           while (flag) {
@@ -664,7 +677,7 @@ User is prompt after selling cash power.
                   System.out.println("The minimum amount to purchase cash power is GMD30.00");
               }
   
-              totalDailySales += amount;// updating the dailySale with every amount entered by the user
+              dailySale += amount;// updating the dailySale with every amount entered by the user
               System.out.println();
               System.out.println("It is end of the Day? \nType 'y' for Yes to terminate the App\nType 'n' for No to continue Selling cash power");
               String endOfTheDay = input.next();
@@ -687,5 +700,9 @@ User is prompt after selling cash power.
   The finished version of our App:
 
   <img src="../assets/week5/img6.PNG" />
+
+Summary:
+
+
 
 [Previous next](https://github.com/touraye/under-doz/blob/main/102-looking-into-java/L-108-decisions.md)
