@@ -398,5 +398,3 @@ For our case, I would like to keep the `main` method clean. Let it handle only p
 4. Challenge yourself by extracting `dateFormatter`. Remove all the associated date formats into this method and return a String representation of data.
 
 5. Challenge yourself by extracting `currencyFormatter` into its respective methods. This method takes the amount, formats it, and returns a String representation of the amount.
-
-Get the complete version [here]()
