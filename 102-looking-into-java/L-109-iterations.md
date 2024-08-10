@@ -646,7 +646,7 @@ User is prompt after selling cash power.
           double powerAmount;
           double totalUnits;
   
-          double dailySale = 0;
+          double dailySale = 0;// track daily sales
           boolean flag = true;
   
           while (flag) {
@@ -683,7 +683,7 @@ User is prompt after selling cash power.
               String endOfTheDay = input.next();
   
               if(endOfTheDay.equals("y")){
-                  System.out.println("Total daily sales GMD" +String.format("%,.2f", totalDailySales));
+                  System.out.println("Total daily sales GMD" +String.format("%,.2f", dailySale));
                   System.out.println("Transaction Date: " +formattedDate);
                   System.out.println("Thanks You");
                   flag = false;
