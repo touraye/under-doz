@@ -2,17 +2,15 @@
 
 Before embarking on our journey into the world of programming, it is essential to have a solid understanding of computers. As we all know, a computer is an electronic device that manipulates information provided to it and produces a desired outcome. It is beneficial to comprehend how a computer manipulates information, especially for a computer science student.
 
-
-
 ### Natural And Formal Languages
 
-Natural Languages: These are languages people use to communicate among themselves. These kind of a languages evolve naturally though people might contribute to the betterment of the these language, but either it's creation.
+**Natural Languages:** These are languages people use to communicate among themselves. These kind of a languages evolve naturally though people might contribute to the betterment of the these language, but either it's creation.
 
-Formal Language: These are languages people have created for a specific purposes. These kind of languages are Mathematic language and programming languages. 
+**Formal Language:** These are languages people have created for a specific purposes. These kind of languages are Mathematic language and Programming languages.
 
-For our interest we will consider a programming language. Formal Languages have these key components; token, syntax, and parsing. 
+For our interest we will consider Programming languages. Formal Languages have these key components; token, syntax, and parsing. 
 
-In programming languages, a **token** is a basic building block that represents a single element of the source code.  Common types of tokens include keywords, identifiers, literals, operators, and punctuation symbols. You will see more later in the course
+In programming languages, a **token** is a basic building block that represents a single element of the source code.  Common types of tokens include keywords, identifiers, literals, operators, and punctuation symbols. You will see more later in the course.
 
 Each of these elements is a token, and they collectively form the syntax of a programming language. 
 
@@ -20,15 +18,11 @@ In programming, **syntax** refers to the set of rules that dictate how programs 
 
 **Parsing** in a programming language involves analyzing the structure of the source code to determine its syntactic correctness according to the language's grammar rules.
 
-
-
-# Programming Languages
+## Programming Languages
 
 Humans communicate with each other using natural languages such as English, Arabic, Chinese, etc. On the contrary, computers comprehend only zeros and ones (binary), known as Machine language or assembly language, also referred to as a low-level language. High-level languages are not directly understood by computers; they need to undergo certain processes.
 
 High-level languages are text-based, similar to English, making them easy to write, read, and understand. In contrast, low-level languages are challenging in terms of writing, reading, and understanding. Examples of high-level languages include Java, JavaScript, Python, etc.
-
-
 
 | Low-level language                                           | High-level language                                          |
 | :----------------------------------------------------------- | ------------------------------------------------------------ |
