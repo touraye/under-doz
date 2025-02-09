@@ -26,7 +26,32 @@ Ebrima Touray
 
 **Website:** [ecodes.gm](https://www.ecodes.gm) 
 
-## What Are You Going to Learn
+## Content
+
+1. Module-0-Booting up
+   1. Installation of basic software
+      1. Java
+      2. IDE - IntelliJ
+      3. Setting up your dev environment
+      4. Command line basic
+   3. Staying organize
+      1. Create a project directory
+      1. Google Classroom
+2. Module-1-computer-and-computer-architecture
+   1. Computer literacy
+      1. Basic computing
+   2. Types of languages
+      1. Lower level languages
+      2. Higher level languages
+   3. Program execution flows
+      1. Compilers
+      2. Assembly
+      3. Microprocessor
+3. Module-2-introduction-to-programming
+   1. The we program
+   1. Getting into programming
+
+* Installation guide 
 
 * What is a program
 * Variable concepts
