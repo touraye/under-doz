@@ -1,0 +1,3 @@
+# Getting In To Programming
+
+In the must simple definition programming is a way human communicate to a machine(computer systems), this communicate are not just mere words but detail instructions. We as human express our wants and desires through instructions that are understandable by computer. The [the program execution flows]() explain how our instruction get executed to the level which a computer get to be doing what we want it to do.
