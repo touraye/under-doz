@@ -103,12 +103,28 @@ If you are on Mac or Linux this will work for you.
 
 Dealing with Folder:
 
-* Simply open your terminal or bash, `cd` in Desktop and create a folder called `command-line-basic`, and `cd` into it.
-*  Create file(s) using a single `touch` command follow by the name of file(s). Let's create three new file inside of `command-line-basic` directory.
-  * `touch java-1.txt test-1.txt test-2.txt` 
-  * You can use a command to open `java-1.txt` file with a notepad editor like so; `note java-1.txt` for Linux, Mac OS `notepad java-1.txt`.
-* Renaming a file using `mv` command. Rename of one the file you have created above.
-* Deleting a file using `rm` command
+* **Creating files and folder/directory:**
+  * Create a folder/directory with `mkdir` and the name of, while `touch` for  file with the name
+  * First create a folder/directory called `command-line-basic` using  `mkdir` command; `mkdir command-line-basic`
+  * Navigate to newly created directory with change directory command; `cd command-line-basic`
+  * Create three new file with  single `touch` command and space in between each file; `touch test-1.txt test-2.txt test-3.txt`. 
+  * List all the new created file with `ls` command.
+
+* **Moving files and folders/directories:**
+  * Moving a file or a directory is done with `mv` command plus the destination.
+  * Now is time to move one file into `t` directory;  `mv test-1.txt t`. Run the `ls`, you will see `test-1.txt` file.
+  * `cd` into `t` and run the `ls`
+
+* **Renaming files and folders:**
+  * Using `mv` to rename files and directories;
+  * Give a new name to `text-1.txt`; `mv text-1.txt. text-one.txt`. Run `ls` to confirm
+  * `cd ..` to `command-line-basic`, change the name of `t`  directory to `t-one`. Run `ls` to confirm.
+
+* **Deleting files and folders:**
+  * The `rm` is use to delete a file and `rm -rf` for directory
+  * Run `pwd` to know your present working directory. Be sure it is `command-line-basic`. And if you would run `ls` you'd see two files(`test-2.txt  test-3.txt`) and `t` directory
+  * Let's remove `test-2.txt` file; `rm test-2.txt` and run `ls` 
+  * Delete `t` directory which contains; `rm -rf t` and run `ls`
 
 ## Java On The Command Line 
 
@@ -147,7 +163,7 @@ Let's get into it:
   ```java
   public class Main {
   	public static void main(String[] args){
-  	System.out.ptintln("Hello World!");
+  		System.out.println("Hello World!");
   }
   }
   ```
