@@ -30,26 +30,33 @@ Ebrima Touray
 
 1. Module-0-Booting up
    1. Installation of basic software
-      1. Java
+      1. installation of basic software
       2. IDE - IntelliJ
       3. Setting up your dev environment
       4. Command line basic
    3. Staying organize
       1. Create a project directory
       1. Google Classroom
+      1. GitHub account
 2. Module-1-computer-and-computer-architecture
    1. Computer literacy
       1. Basic computing
-   2. Types of languages
+   3. Program execution flows
+      1. Interpreter
+      2. Compilers
+      3. Assembly
+      4. 
+3. Module-2-introduction-to-programming
+   1. Types of languages
       1. Lower level languages
       2. Higher level languages
-   3. Program execution flows
-      1. Compilers
-      2. Assembly
-      3. Microprocessor
-3. Module-2-introduction-to-programming
-   1. The we program
-   1. Getting into programming
+   2. The we program
+   3. Getting into programming
+
+**What are we learning:**
+
+**Java 1**
+
 
 * Installation guide 
 
@@ -69,6 +76,10 @@ Ebrima Touray
 * Iteration
 * Subroutine
 * Object Oriented Programming
+
+**Java 2**
+
+
 * Interface
 * Enums
 * Generic
