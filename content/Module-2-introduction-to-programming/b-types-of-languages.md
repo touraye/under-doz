@@ -1,3 +1,104 @@
+# Types of Languages
+
+Before we dive into the types of programming language it worth spending time understand what entails a formal language hence it is were our interest lies greatly. 
+
+#### Formal Language
+
+These are languages people have created for a specific purposes. These kind of languages are Mathematic language and Programming languages.
+
+For our interest we will consider Programming languages. Formal Languages have these key components; **token**, **syntax**, and **parsing**.
+
+Formal languages are structured systems used in computer science, particularly in programming languages and compilers, with three fundamental components: **tokens**, **syntax**, and **parsing**. Here's a concise breakdown:
+
+### 1. **Token**
+
+- **Definition**: The smallest meaningful units of a language, analogous to "words" in natural language.
+- **Role**: Produced by a **lexer** (lexical analyzer), tokens categorize input characters into valid elements (e.g., keywords, literals, operators).
+- **Examples**:
+  - In `int x = 5;`, tokens are `int`, `x`, `=`, `5`, and `;`.
+  - Errors at this stage (e.g., invalid symbols like `$#`) are **lexical errors**.
+
+### 2. **Syntax**
+
+- **Definition**: Rules governing how tokens are combined to form valid statements, akin to grammar in natural language.
+- **Role**: Defined by a **grammar** (e.g., context-free grammar), syntax ensures correct structure (e.g., expression precedence, statement order).
+- **Examples**:
+  - A `for` loop must follow `for (init; condition; update) { ... }`.
+  - Errors here (e.g., `if x = 5` missing a colon in Python) are **syntax errors**.
+
+### 3. **Parsing**
+
+- **Definition**: The process of analyzing token sequences to validate syntax and build a hierarchical structure (e.g., parse tree, abstract syntax tree).
+
+- **Role**: Performed by a **parser**, which checks if tokens conform to grammar rules.
+
+- **Goal**: Verify that the sequence of tokens adheres to the **grammar rules** of the language (i.e., the code is structurally valid).
+  **Focus**: *Form* over *meaning*.
+
+- **Methods**:
+
+  - *Top-down* (e.g., recursive descent): Starts from the root (grammar start symbol) and expands rules.
+  - *Bottom-up* (e.g., LR parsers): Builds structure from tokens upward.
+
+- **Example**: Parsing `3 + 4 * 2` creates a tree reflecting operator precedence (`4*2` evaluated first).
+
+  - **Valid**: `if (x > 5) { ... }` (correct syntax).
+  - **Invalid**: `if x > 5 { ... }` (missing parentheses).
+  - **Invalid**: `3 + * 4` (operator misuse
+
+- #### **Limitations**:
+
+  - A parser will accept syntactically valid code even if it’s **logically meaningless**.
+    Example:
+
+    ```java
+    int x = "hello"; // Syntax is valid, but type mismatch (semantic error).  
+    System.out.print(y);        // Syntax valid, but 'y' is undeclared (semantic error).  
+    ```
+
+  **Semantic Analysis**
+
+- **Goal**: Verify the **logical correctness** of the code.
+  **Focus**: *Meaning* and *context*.
+
+  #### **Key Responsibilities**:
+
+  - **Type Checking**: Ensure operations are valid for data types (e.g., no adding a string to an integer).
+
+  - **Scope Resolution**: Confirm variables/functions are declared before use and accessible in their scope.
+
+  - **Consistency Checks**: Validate function arguments, return types, and language-specific rules (e.g., `break` must be inside a loop).
+
+  - **Symbol Tables**: Track identifiers (variables, functions) and their attributes (type, scope, memory location).
+
+  - #### **Examples of Semantic Checks**:
+
+    ```java
+    // valid
+    int x = 5;  
+    x = x + 3; // Type-compatible assignment.  
+    
+    // invalid
+    int x = "hello"; // Type mismatch (string assigned to int).  
+    System.out.print(y);// Undeclared variable 'y'.  
+    int a = 3;
+     String b = "5";
+     if (a > b) { }// Comparing int with string.
+    ```
+
+    
+
+### Interaction Flow:
+
+1. **Lexer** converts raw input (e.g., source code) into tokens.
+2. **Parser** verifies token sequences against syntax rules and constructs a parse tree.
+3. Subsequent phases (e.g., semantic analysis) handle meaning, context, and code generation.
+
+### Key Distinctions:
+
+- **Tokens vs. Syntax**: Tokens are valid individually; syntax governs their arrangement.
+- **Parsing vs. Semantic Analysis**: Parsing checks structure; semantics check logic (e.g., variable declaration before use).
+
 ### **Types of Programming Languages**
 
 Programming languages can be categorized based on their purpose, execution style, and abstraction level. Here are the main types:
@@ -37,7 +138,10 @@ Focus on describing what should be done rather than how to do it.
 Tailored for specific tasks rather than general-purpose programming.
 
 - **Game Development** – (e.g., GDScript for Godot).
+
 - **Data Science & Statistics** – (e.g., R, MATLAB).
+
+  
 
 Each type of programming language serves different needs, and the choice depends on the application domain and execution requirements.
 
@@ -205,3 +309,11 @@ print(squared_numbers)  # Output: [1, 4, 9, 16, 25]
 | **Functional** | Pure functions, immutability      | Haskell, Lisp, Scala | No side effects, easy to test | Harder to learn, may be slower   |
 
 Each paradigm has its strengths and is best suited for different types of applications. Some modern languages, like Python and JavaScript, **support multiple paradigms**, allowing a mix of procedural, object-oriented, and functional styles.
+
+**Module Summary:**
+
+1. Learn about low-level language such as machine and assembly language.  Machine language make usage of 0s and 1s, while assembly use `MOV` and `ADD`
+2. Higher-level language is more user-friendly which are English like text, easily understandable by humans. Higher-level are broadly divided into 3 namely; procedural, object-oriented, and functional language.
+3. Scripting language which are used for server-sides-scripting and system-scripting. These language are interpreted rather compiled
+4. Declarative programming language is straight forwarded in a sense that you describe what you want rather how you want it. Example are logic basic, markup and database query language
+5. Domain specific language are specific for certain task only like game development and data science
