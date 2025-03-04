@@ -1,6 +1,6 @@
 # Data Types In Java
 
-In previous lessons, we explored [variables](https://chat.deepseek.com/a/chat/s/fb44cda6-70af-489a-bf43-59113e122440), including the various data types programs can handle, such as numeric values, textual content, and boolean (true/false) logic. We briefly covered how programs interact with these foundational data types. Now, let’s delve into Java’s specific data types, which include primitive types and object-oriented structures.
+In previous lessons, we explored [variables](https://github.com/touraye/under-doz/blob/main/content/Module-2-introduction-to-programming/c-getting-into-programming.md#the-variable-concept), including the various data types programs can handle, such as numeric values, textual content, and boolean (true/false) logic. We briefly covered how programs interact with these foundational data types. Now, let’s delve into Java’s specific data types, which include primitive types and object-oriented structures.
 
 **What are Data Types in Java**
 
@@ -95,6 +95,6 @@ public class DataTypesExample {
   ```
 - **Strings**: Technically reference types but often treated as primitives in syntax.  
 
-[Next lesson](https://github.com/touraye/under-doz/blob/main/102-looking-into-java/L-104-first-java-progrom.md)
+[Next lesson](https://github.com/touraye/under-doz/edit/main/content/Module-3-java-at-first-glace/c-expression-and-statment.md)
 
-[Previous lesson](https://github.com/touraye/under-doz/blob/main/102-looking-into-java/L-102-basic-building-block.md)
+[Previous lesson](https://github.com/touraye/under-doz/edit/main/content/Module-3-java-at-first-glace/a-basic-building-block-of-java-program.md)
