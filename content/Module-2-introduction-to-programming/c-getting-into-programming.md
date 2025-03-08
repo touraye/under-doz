@@ -34,6 +34,66 @@ A **variable** is a storage unit within a program that holds a value. These valu
 
 In certain programming languages, variables must be explicitly assigned a **data type**, while in others, variables can store different types of values dynamically. This distinction is referred to as **static typing** (where variable types are fixed) and **dynamic typing** (where types are determined at runtime).
 
+## Variable Lifecycle
+
+In programming, a variable goes through three stages: declaration, initialization, and re-assignment.
+
+### Important Disclaimer
+
+**Reassignment is NOT required** - many variables are initialized once and never changed. Reassignment only occurs when a program *needs* to modify a variable's value after initialization.
+
+### Declaration
+Declaration introduces a variable’s **name** and **data type** to the compiler. Memory is reserved, but no value is assigned.
+
+```java
+int age;         // Declare an integer variable  
+String name;     // Declare a String variable  
+double salary;   // Declare a double variable  
+```
+
+### Initialization
+
+Initialization is the process of *assigning an initial value* to a declared variable. This ensures the variable has a predictable state before use.
+
+```java
+int age = 25;   // Declaration + initialization  
+String name = "Alice";  
+double salary = 50000.0;  
+```
+
+### Reassignment
+
+Reassignment occurs when assigning a *new value* to an already initialized variable. This allows the variable’s value to change during program execution while retaining its declared type.
+
+```java
+age = 30;  // Reassign age to 30  
+name = "Bob"; // Reassign name to "Bob"  
+salary = 60000.0;  // Reassign salary to 60000.0  
+
+// Example with separate initialization and reassignment:
+double temperature;
+temperature = 98.6;  // Initialization  
+temperature = 101.2;  // Reassignment  
+```
+
+**Constant:**
+
+```java
+// Example of variable that doesn't need reassignment
+final double PI = 3.14159;  // Initialized once, never changed
+```
+
+**Key notes:**
+
+- Variables must be initialized before reassignment
+- The new value must match the variable’s data type
+- Variables must be initialized before any reassignment attempt
+- Reassignment does not change the variable’s original declaration type
+- Multiple reassignments can occur throughout a program's execution
+- Reassignment is **optional**, not mandatory
+- Final variables (`final` keyword) explicitly forbid reassignment
+- The new value must always match the variable's data type
+
 #### **Static Type Languages**
 
 In statically typed languages, variables must be **explicitly declared** with a predefined **data type**. Once assigned, the type **cannot change** throughout the program’s execution. For example, a variable intended to store a **person’s name** must be of type **`string`**, while a variable storing **age** must be of type **`number`**. This strict type enforcement helps prevent type-related errors at **compile time**.
@@ -68,19 +128,106 @@ In programming, **operators** are special symbols used to perform various comput
 
 - **Logical Operators** – Used to evaluate **boolean expressions** and control program flow. Examples include **AND (`&&`), OR (`||`), and NOT (`!`)**.
 
-- Ternary Operator (`? :`) – The only conditional operator that takes 
+- **Ternary Operator (`? :`)** – The only conditional operator that takes 
 
   three operands. It is often used as a shorthand for `if-else` statements.
 
   - Example: `10 > 9 ? "Do something" : "Do something else";`
 
-- Unary Operators – Operate on a single operand. Examples include 
+- **Unary Operators** – Operate on a single operand. Examples include 
 
   increment (`++`), decrement (`--`), and negation (`-`).
 
   - Example: `++x;` or `x--;`
 
 ------
+
+**Operator Precedence in Java: A Structured Explanation**  
+
+In Java, arithmetic expressions follow specific rules of precedence to determine the order of evaluation. Operators with higher precedence execute before those with lower precedence. When operators share the same precedence level, they are evaluated **left to right** (left associativity). Here’s a breakdown:  
+
+---
+
+### **1. Precedence Hierarchy**  
+1. **Highest**: `*` (multiplication), `/` (division), `%` (modulus).  
+2. **Middle**: `+` (addition), `-` (subtraction).  
+3. **Lowest**: `=` (assignment).  
+
+**Example**:  
+```java  
+int result = 10 + 3 * 2;  // 3*2 = 6 → 10+6 = 16 → result = 16  
+```
+
+---
+
+### **2. Associativity**  
+Operators at the same precedence level resolve left to right:  
+```java  
+int x = 10 - 5 + 3;  // Evaluated as (10 - 5) + 3 = 8  
+int y = 20 / 4 % 3;  // Evaluated as (20 / 4) = 5 → 5 % 3 = 2  
+```
+
+---
+
+### **3. Parentheses Override Precedence**  
+Parentheses `()` enforce evaluation order, aligning with BODMAS principles:  
+```java  
+int z = (10 + 3) * 2;  // 10+3 = 13 → 13*2 = 26 → z = 26  
+```
+
+---
+
+### **4. Assignment Operator (`=`)**  
+The `=` operator has the lowest precedence. Arithmetic operations complete before assignment:  
+```java  
+int a = 2 * 3;  // 2*3 = 6 → a = 6  
+```
+
+---
+
+### **5. Complex Expression Breakdown**  
+```java  
+int z = p * r % q + w / x - y;  
+```
+**Steps**:  
+1. `p * r`  
+2. Result of (1) `% q`  
+3. `w / x`  
+4. Add results of (2) and (3)  
+5. Subtract `y` from (4)  
+6. Assign final value to `z`.  
+
+---
+
+### **6. Algebraic vs. Java Expressions**  
+**Algebra**:  
+\[ y = mx + b \]  
+**Java**:  
+```java  
+y = m * x + b;  // * precedes +  
+```
+
+**Algebra**:  
+\[ y = ax^2 + bx + c \]  
+**Java**:  
+```java  
+y = (a * x * x) + (b * x) + c;  // Parentheses clarify intent  
+```
+
+---
+
+### **Why It Matters**  
+- **Unpredictable Results**: Ignoring precedence can lead to logic errors.  
+   ```java  
+   int wrong = 10 + 3 * 2;  // 16 (correct) vs. 26 (if + came first)  
+   ```
+- **Readability**: Use parentheses to clarify complex expressions, even if not strictly required.  
+
+**Best Practice**:  
+```java  
+// Clearer with parentheses:  
+int volume = (width * height) * depth;  
+```
 
 ### **Operand**
 
@@ -210,5 +357,6 @@ Early in your coding journey, debugging can feel **challenging and frustrating**
 #### Summary
 
 1. Learn about value being the most fundamentals of a program and type that differential the type of values a program can hold
-2. Learn about different data types; string, number, boolean, collections, and user-define type
-3. The concept behind variable 
+2. The two ways of creating a variable; declaration and initialization.
+3. Learn about different data types; string, number, boolean, collections, and user-define type
+4. The concept behind variable 
