@@ -30,14 +30,15 @@ Statements and expressions are fundamental to Java programming. Expressions comp
 ```java  
 int result = 10 + 5;      // Expression: `10 + 5` → evaluates to 15  
 boolean isAdult = age >= 18; // Expression: `age >= 18` → evaluates to true/false  
-String name = "Alice".toUpperCase(); // Expression: `"Alice".toUpperCase()` → "ALICE"  
+String name = "Ahmed".toUpperCase(); // Expression: `"Ahmed".toUpperCase()` → "AHMED"  
 ```
 
 ---
 
 ### **2. Statements**  
-**Definition**: A **complete unit of execution** that performs an action. Statements often contain expressions but do *not* evaluate to a value.  
+**Definition**: A **complete unit of execution** that performs an action. Statements often contain expressions but do *not* evaluate to a value. 
 **Key Traits**:  
+
 - End with a semicolon (`;`).  
 - Control program flow, declare variables, or modify state.  
 
