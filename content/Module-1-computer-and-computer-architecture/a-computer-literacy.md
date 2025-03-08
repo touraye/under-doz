@@ -50,14 +50,12 @@
 
 **5. File Management**
 
-- File Formats
-
-  :
+- File Formats:
 
   - Documents: .docx, .pdf.
   - Images: .jpg, .png.
   - Videos: .mp4, .mov.
-
+  
 - Organize files into folders for easy access.
 
 - Backup important files using cloud storage (Google Drive, Dropbox).
