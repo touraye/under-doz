@@ -32,6 +32,7 @@ Scanner scanner = new Scanner(System.in);
 - Reading String:
   - `next()`: Read a single word (stops at whitespace).
   - `nextLine()`: Read an entire line (including spaces).
+- `input.nextBoolean()`: Reading boolean value(true or false)
 
 Sample code:
 
@@ -133,8 +134,10 @@ Sentence: Java is fun!
 
 ### **Best Practices**
 
+- Always prompt the user with a clean message before taking any input.
+- Make use of the `nextLeine()` to reading character than `next()`
 - Use `hasNextInt()`, `hasNextDouble()`, etc., to validate input before reading.
-- For file input, use `Scanner scanner = new Scanner(new File("data.txt"));` (requires exception handling).
+- Always close the Scanner when done reading from the keyboard.
 
 **Summary:**
 
