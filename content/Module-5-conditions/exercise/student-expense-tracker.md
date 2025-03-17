@@ -2,7 +2,7 @@
 
 ***Part 1***
 
-In this exercise, you will utilize the knowledge gained from [part-a of module-4](). Your task is to refactor an existing Java program to incorporate the Scanner `System.in` capabilities of reading input from a user keyboard.
+In this exercise, you will utilize the knowledge gained from [part-a of module-4](https://github.com/touraye/under-doz/blob/main/content/Module-4-useful-java-classes/-a-taking-input-from-the-keyboard.md). Your task is to refactor an existing Java program to incorporate the Scanner `System.in` capabilities of reading input from a user keyboard.
 
 The output of the initial program:
 
@@ -30,7 +30,7 @@ Hint: suppose
  */
 int num1 = 4, num2 = 3, num3 = 12, num4 = 1;
 boolean a = num1 > num2 || num3 < num4;
-// complete the rest of the comparison using comparison operator and logical operators as seen above
+//Complete the rest of the comparison using the comparison operator and logical operators as seen above
 boolean b;
 boolean c;
 boolean d;
