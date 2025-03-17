@@ -1,5 +1,13 @@
 # Java At First Glace
 
-Unopinionated Java is must use language to tech student programming across the globe. Many colleges and universities use Java in their computer science core-course.
+In this module you start developing a programming mindset, it will give to most basic foundation to becoming a better programmer. Java at first glace will teach to all you need to know to become a solid programmer
+
+In this module you are going to learn:
+
+1. [The basic building block of a Java program]()
+2. [Data types in Java]()
+3. [What makes up a Java program]()
+4. [The String class in Java]()
+5. [Arithmetic operator and math class]()
 
  
