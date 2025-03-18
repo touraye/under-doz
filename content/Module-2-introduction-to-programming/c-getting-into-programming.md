@@ -57,7 +57,7 @@ Initialization is the process of *assigning an initial value* to a declared vari
 
 ```java
 int age = 25;   // Declaration + initialization  
-String name = "Alice";  
+String name = "Ahmed";  
 double salary = 50000.0;  
 ```
 
@@ -67,7 +67,7 @@ Reassignment occurs when assigning a *new value* to an already initialized varia
 
 ```java
 age = 30;  // Reassign age to 30  
-name = "Bob"; // Reassign name to "Bob"  
+name = "Lamin"; // Reassign name to "Lamin"  
 salary = 60000.0;  // Reassign salary to 60000.0  
 
 // Example with separate initialization and reassignment:
@@ -142,13 +142,14 @@ In programming, **operators** are special symbols used to perform various comput
 
 ------
 
-**Operator Precedence in Java: A Structured Explanation**  
+### Rule of Precedence
 
-In Java, arithmetic expressions follow specific rules of precedence to determine the order of evaluation. Operators with higher precedence execute before those with lower precedence. When operators share the same precedence level, they are evaluated **left to right** (left associativity). Here’s a breakdown:  
+In programming, arithmetic expressions follow specific rules of precedence to determine the order of evaluation. Operators with higher precedence execute before those with lower precedence. When operators share the same precedence level, they are evaluated **left to right** (left associativity). Here’s a breakdown:  
 
 ---
 
-### **1. Precedence Hierarchy**  
+**1. Precedence Hierarchy**  
+
 1. **Highest**: `*` (multiplication), `/` (division), `%` (modulus).  
 2. **Middle**: `+` (addition), `-` (subtraction).  
 3. **Lowest**: `=` (assignment).  
@@ -160,7 +161,8 @@ int result = 10 + 3 * 2;  // 3*2 = 6 → 10+6 = 16 → result = 16
 
 ---
 
-### **2. Associativity**  
+**2. Associativity**  
+
 Operators at the same precedence level resolve left to right:  
 ```java  
 int x = 10 - 5 + 3;  // Evaluated as (10 - 5) + 3 = 8  
@@ -169,7 +171,8 @@ int y = 20 / 4 % 3;  // Evaluated as (20 / 4) = 5 → 5 % 3 = 2
 
 ---
 
-### **3. Parentheses Override Precedence**  
+**3. Parentheses Override Precedence**  
+
 Parentheses `()` enforce evaluation order, aligning with BODMAS principles:  
 ```java  
 int z = (10 + 3) * 2;  // 10+3 = 13 → 13*2 = 26 → z = 26  
@@ -177,7 +180,8 @@ int z = (10 + 3) * 2;  // 10+3 = 13 → 13*2 = 26 → z = 26
 
 ---
 
-### **4. Assignment Operator (`=`)**  
+**4. Assignment Operator (`=`)**  
+
 The `=` operator has the lowest precedence. Arithmetic operations complete before assignment:  
 ```java  
 int a = 2 * 3;  // 2*3 = 6 → a = 6  
@@ -185,7 +189,8 @@ int a = 2 * 3;  // 2*3 = 6 → a = 6
 
 ---
 
-### **5. Complex Expression Breakdown**  
+**5. Complex Expression Breakdown**  
+
 ```java  
 int z = p * r % q + w / x - y;  
 ```
@@ -199,7 +204,8 @@ int z = p * r % q + w / x - y;
 
 ---
 
-### **6. Algebraic vs. Java Expressions**  
+**6. Algebraic vs. Java Expressions**  
+
 **Algebra**:  
 \[ y = mx + b \]  
 **Java**:  
@@ -216,7 +222,8 @@ y = (a * x * x) + (b * x) + c;  // Parentheses clarify intent
 
 ---
 
-### **Why It Matters**  
+**Why It Matters**  
+
 - **Unpredictable Results**: Ignoring precedence can lead to logic errors.  
    ```java  
    int wrong = 10 + 3 * 2;  // 16 (correct) vs. 26 (if + came first)  
@@ -224,12 +231,13 @@ y = (a * x * x) + (b * x) + c;  // Parentheses clarify intent
 - **Readability**: Use parentheses to clarify complex expressions, even if not strictly required.  
 
 **Best Practice**:  
+
 ```java  
 // Clearer with parentheses:  
 int volume = (width * height) * depth;  
 ```
 
-### **Operand**
+## Operand
 
 An **operand** is a value (or variable) on which an **operator** performs an operation.
 
@@ -240,7 +248,7 @@ Example: `result = 3 + 2;`
 
 ------
 
-## **Expression**
+## Expression
 
 An **expression** is a combination of **values, variables, operators, or function calls** that evaluates to a new value. Expressions are essential in programming as they generate and manipulate data.
 
@@ -254,11 +262,11 @@ x = (5 + 3) * 2;  # Expression: (5 + 3) * 2
 
 ------
 
-## **Statement**
+## Statement
 
 A **statement** is an instruction that directs the computer to perform a specific action. It may include **variables, values, operators, and expressions**. In some programming languages, statements must be terminated with a **semicolon (`;`)**, while others do not require termination.
 
-### **Types of Statements in Programming**
+#### **Types of Statements in Programming**
 
 1. **Expression Statement** – Evaluates an expression but does not store the result.
 2. **Declaration Statement** – Declares variables or functions.
@@ -271,7 +279,7 @@ A **statement** is an instruction that directs the computer to perform a specifi
 
 ------
 
-## **Algorithm**
+## Algorithm
 
 Solving a problem in programming requires following **a series of well-defined steps** in a specific sequence to achieve the desired outcome.
 
@@ -283,14 +291,14 @@ For example, if a program asks a user to enter their name and then displays it o
 
 If the steps are not followed in the correct order, the program will not function correctly.
 
-### **Definition**
+**Definition**
 
 An **algorithm** is a **systematic sequence of steps** used to solve a problem. It consists of:
 
 - **Actions** – Statements and expressions that execute specific tasks.
 - **Order** – The structured sequence in which these actions are placed.
 
-A well-structured algorithm ensures efficiency, correctness, and maintainability in software development.
+A well-structured algorithm ensures efficiency, correctness, and maintainability in programming.
 
 ------
 
