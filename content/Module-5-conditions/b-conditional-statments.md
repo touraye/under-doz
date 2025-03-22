@@ -117,6 +117,32 @@ if (age >= 18) {
 
 ---
 
+## **If-Else Statement**
+
+An **if-else** statement is used when we want to execute **one block of code if a condition is true** and **another block if it is false**.
+
+### **How It Works:**
+
+1. The `if` condition is checked first.
+2. If `true`, the `if` block executes.
+3. If `false`, the `else` block executes.
+
+#### **Example: Checking Age for Access**
+
+```java
+int age = 17;
+
+if (age >= 18) {
+    System.out.println("Access granted!");
+} else {
+    System.out.println("Access denied!");
+}
+// Output: Access denied!
+```
+
+- If `age` is `18` or more, "Access granted!" is printed.
+- Otherwise, "Access denied!" is printed.
+
 ## **If, Else If, and Else Statement**
 
 The **if-else if-else** structure is useful when checking **multiple conditions**. Instead of writing multiple separate `if` statements, we use **else if** to efficiently evaluate different conditions in sequence.
