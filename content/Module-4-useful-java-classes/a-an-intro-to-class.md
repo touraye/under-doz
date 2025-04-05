@@ -137,9 +137,9 @@ Heap Memory:
 
 The reference `myComputer` holds the **memory address** of the object.
 
-We have covered **what a Java file is**, **what a Java class is**, and **their differences**. Additionally, we explored the properties and behaviors of a class, **including** what an **object** is, how to create an object, how to assign values to class properties, and how to invoke or call a function (behavior) using an object.
+We have covered **what a Java file is**, **what a Java class is**, and **their differences**. Additionally, we explored the properties and behaviors of a class, including what an **object** is, how to create an object, how to assign values to class properties, and how to invoke or call a function (behavior) using an object.
 
-Since we mentioned that Java is a very rich language **that** comprises many built-in classes for **different purposes**, it is worth highlighting at least a few of these classes. Therefore, **we will briefly mention a few examples here**:
+Since we mentioned that Java is a very rich language that comprises many built-in classes for different purposes, it is worth highlighting at least a few of these classes. Therefore, we will briefly mention a few examples here:
 
 | Class Name            | Example                                                      | Class Destination      |
 | --------------------- | ------------------------------------------------------------ | ---------------------- |
@@ -153,6 +153,6 @@ Since we mentioned that Java is a very rich language **that** comprises many bui
 | Date and Time         | `LocalDate`, `LocalTime`, `LocalDateTime`                    | `java.time`            |
 |                       |                                                              |                        |
 
-**The above-mentioned** are examples of **some classes Java offers**, their purposes, and the packages they **reside in**. Moving **forward to other modules**, we will **begin** using **some of these classes** in our programs, reusing them **rather than** creating our own **from scratch** – **in other words**, reusing the wheel **instead of** reinventing it.
+The above-mentioned are examples of some classes Java offers, their purposes, and the packages they reside in. Moving forward to other modules, we will begin using some of these classes in our programs, reusing them rather than creating our own from scratch – in other words, **reusing the whee**l instead of **reinventing** it.
 
-**Important note:** Always ensure you **understand** the purpose of each class you use, **its name**, key methods, and their **return types**.
+**Important note:** Always ensure you understand the purpose of each class you use, its name, key methods, and their return types.
