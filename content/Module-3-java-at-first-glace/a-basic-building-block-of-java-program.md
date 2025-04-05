@@ -13,10 +13,6 @@ The foundational components of a Java application are the structural and syntact
    * Method and Fields
    * Access Modifiers
 
-Here’s a **structured breakdown** of Java application components, categorized into **essential** and **common additional** elements, with technical explanations and examples:
-
----
-
 ### **Essential Components**  
 
 #### 1. **Class Declaration**  
