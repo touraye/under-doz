@@ -1,6 +1,6 @@
 # Expression And Statement
 
-Statements and expressions are fundamental to Java programming. Expressions compute values (e.g., `5 + 3`), while statements execute actions (e.g., `if (x > 0) { ... }`). Their distinction ensures proper syntax, program flow, and logic execution. Mastering these elements is essential for writing efficient, readable code and leveraging Java’s object-oriented capabilities.
+Statements and expressions are fundamental to programming. Expressions compute values (e.g., `5 + 3`), while statements execute actions (e.g., `if (x > 0) { ... }`). Their distinction ensures proper syntax, program flow, and logic execution. Mastering these elements is essential for writing efficient, readable code and leveraging Java’s object-oriented capabilities.
 
 ### **What Should Be Learned**
 
