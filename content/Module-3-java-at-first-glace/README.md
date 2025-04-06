@@ -7,7 +7,6 @@ In this module you are going to learn:
 1. [The basic building block of a Java program]()
 2. [Data types in Java]()
 3. [What makes up a Java program]()
-4. [The String class in Java]()
 5. [Arithmetic operator and math class]()
 
  
