@@ -44,7 +44,7 @@ In steps:
 * You will see a list of sub-folder and files, among you, should see a folder with the name of the `bin`, open the `bin` folder.
 
 * Inside the `bin` folder, there are lots of sub-folders and files. See the preview:
-  * <img src="C:\Users\ABDOU-JOBE\OneDrive\Documents\project\under-doz\under-doz\assets\bin-folder.PNG"/>
+  * ![bin-folder](../../assets/bin-folder.PNG)
 
 * Click on the highlighted red color shown in the image above it will highlight everything in that address bar(think of it like how you copy a URL in your browser). `Ctrl+c` copy to highlighted text.
 
