@@ -32,37 +32,22 @@ Now we successfully downloaded and installed Java it's time to set up our develo
 In steps: 
 
 * Open your window file explorer.
-
 * Navigate to your C drive.
-
 * Open your `program files` folder(this folder contain your installed programs).
-
 * Find a folder named `Java` and open it.
-
 * You should see one folder named `jdk-` with the version you installed in our case is 21, and open it suppose you've downloaded Java-21
-
 * You will see a list of sub-folder and files, among you, should see a folder with the name of the `bin`, open the `bin` folder.
-
 * Inside the `bin` folder, there are lots of sub-folders and files. See the preview:
   * ![bin-folder](../../assets/bin-folder.PNG)
-
 * Click on the highlighted red color shown in the image above it will highlight everything in that address bar(think of it like how you copy a URL in your browser). `Ctrl+c` copy to highlighted text.
-
 * Now we have to go to our Environment variables, press the `Windows key,` and type `env` you see 'Edit the system environment variables', and press on Enter key to open it.
-
 * Advance tap will be selected by default, at the bottom you should see a button `Environment Variables` Click on it another window will open.
-
 * There you will see the `User variables `(this will set the path to the only logged user), and System Variables(which will set the path for the entire system, and any user can access it). I prefer the `System Variables`.
-
 * On the `System, Variables` select the `path` and click the `edit button `. Another small window will pop up. If it doesn't show like the image below go to the second instructions after the image.
   * The way my system shows it: 
-
-  * <img src="C:\Users\ABDOU-JOBE\OneDrive\Documents\project\under-doz\under-doz\assets\evn.PNG"/>
-
+  * ![evn](a-installation-of-basic-softwares.assets/evn.PNG)
   * You might not see all of the paths like the above, but it's ok. Click the `New` button a text area will be below the path, paste using `Ctrl+v` and then `Ok`.
-
   * The other way; all the paths will appear in one line separated by a semicolon. The last path might not have a semicolon at the end, but you have to put a semicolon before you can add any other path after it.
-
   * Add a to the last path, paste `Ctrl+v,` and then OK. That's it.
 
 Verifying java which you installed would require the use of command line. simply navigate to part-a of [Module-0-booting up]() 

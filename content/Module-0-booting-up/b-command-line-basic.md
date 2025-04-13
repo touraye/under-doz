@@ -174,7 +174,7 @@ Let's get into it:
 
 * Ensure both windows are positioned side by side so that they are visible on your screen for easy navigation:
 
-  * <img src="C:/Users/ABDOU-JOBE/OneDrive/Documents/project/under-doz/under-doz/assets/side-by-sid.PNG"/>
+  * ![side-by-sid](b-command-line-basic.assets/side-by-sid.png)
 
 * Type `cd` in your terminal or command prompt and then space
 
