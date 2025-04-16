@@ -168,7 +168,7 @@ do {
 
 ## :four: For Loop
 
-A `for` loop might appear a bit different from a `while` loop syntactically, but the underlying mechanisms are the same. A `for` loop also has an assignment (control variable or sentinel value), reassignment (increment or decrement), and a Boolean expression (condition), though they are placed differently. A `for` statement also has parentheses `()` and a body `{}`. The parentheses `()` require two mandatory components: the sentinel value and the condition, while the increment or decrement can be placed either in the parentheses or in the body.
+A `for` loop might appear a bit different from a `while` and a `do` loop syntactically, but the underlying mechanisms are the same. A `for` loop also has an assignment (control variable or sentinel value), reassignment (increment or decrement), and a Boolean expression (condition), though they are placed differently. A `for` statement also has parentheses `()` and a body `{}`. The parentheses `()` require two mandatory components: the sentinel value and the condition, while the increment or decrement can be placed either in the parentheses or in the body.
 
 **How it works:** 
 
@@ -190,10 +190,15 @@ A `for` loop might appear a bit different from a `while` loop syntactically, but
   **Syntax:**
 
   ```java
-  //
+  //example one
   for (counter, condition) {
   	// instruction
   	increment or decrement
+  }
+  
+  //example two
+  for (counter, condition, increment) {
+  	// instruction
   }
   
   // incrementing
@@ -210,9 +215,9 @@ A `for` loop might appear a bit different from a `while` loop syntactically, but
   }
   // 3 2 1
   ```
-
+  
   The syntax above will change later as we examine the structure of the `for` loop, but I just want to highlight the flow of execution, step by step:
-
+  
   1. **The counter variable is initialized:**
      1. For incrementing: `int i = 0;`
      2. For decrementing: `int i = 3;`
@@ -222,11 +227,11 @@ A `for` loop might appear a bit different from a `while` loop syntactically, but
   3. **The body:**
      1. The `print` statement outputs the value of `i`, which is `0` for incrementing and `3` for decrementing.
      2. Finally, the control variable is updated for both incrementing (`i++`) and decrementing (`i--`).
-
+  
   Now you have an understanding of how the flow of execution works. I did this to highlight that the last expression to execute in a `for` loop is actually always the reassignment of the sentinel value (`i++`) or (`i--`).
-
+  
   Let’s restructure it for clarity:
-
+  
   ```java
   for (int i = 10; i > 0; i--) {
       System.out.println(i);
@@ -234,11 +239,11 @@ A `for` loop might appear a bit different from a `while` loop syntactically, but
   
   // 10 9 8 7 6 5 4 3 2 1
   ```
-
+  
   **Printing Odd and Even numbers**
-
+  
   **Odd** numbers are numbers that are not divisible by 2, while **Even** numbers are numbers that are divisible by 2. To solve this, we can leverage `if` and `else` statements, along with some arithmetic and Boolean expressions. Let’s check if a given number is divisible by 2 without a remainder:
-
+  
   ```java
   if (1 % 2 == 0)
   	even number
@@ -253,13 +258,13 @@ A `for` loop might appear a bit different from a `while` loop syntactically, but
               System.out.println(i+ " is a odd number");
   }    
   ```
-
-  Key Notes
-
-  Here’s an improved version of your list with corrected grammar and improved clarity:
-
-  ------
-
+  
+  
+  
+  [For more example code challenges]()
+  
+  **Summary:**
+  
   1. An iterative statement repeats a block of code as long as the condition remains `true`.
   2. The iterative statements are `while`, `do-while`, and `for` loops.
   3. 
@@ -273,5 +278,5 @@ A `for` loop might appear a bit different from a `while` loop syntactically, but
   6. The `do-while` loop executes the body before checking the condition.
   7. The `for` loop groups everything within the parentheses (assignment, condition, reassignment) and checks the condition before executing the body.
   8. The body of a `for` loop contains instructions or expressions, along with an optional increment or decrement.
-
+  
   
