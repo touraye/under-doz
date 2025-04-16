@@ -10,6 +10,7 @@ As discussed [Boolean expressions]() earlier they form the foundation of **contr
    1. `if and else`
    2. `if and else if`
    3. nested `if` statement
+2. Ternary Operator
 2. `switch` Statement
 
 ### **Key Differences Between `if-else` and `switch`**
@@ -245,16 +246,53 @@ if (flag) {
 ```
 > **Note!** Nested `if` statements help handle **complex conditions**.
 
-------
+## Ternary Statement
+
+In a scenario were you wanted to print in the console whether Ahmed is present or absent. An `if` and `else` statement will suffice. However, it would require you to have two `print` statements:
+
+```java
+boolean isPresent = false;
+if (isPresent) {
+    System.out.println("Ahmed is present");
+} else {
+    System.out.println("Ahmed is absent");
+}
+```
+
+What if with only one `print` statement. Certainly an `if` and a `else` statement will not do, here come a very handy operator called the **ternary operator** from the  [types of operators](https://github.com/touraye/under-doz/blob/main/content/Module-2-introduction-to-programming/c-getting-into-programming.md#types-of-operators). The ternary operator takes three arguments (boonlean value/expression, `?` that check for true and a `:` that take cares of the false part).
+
+**How It Works:**
+
+1. Before the question mark (`?`) is the **Boolean value or expression**
+2. The question mark `?` checks the condition (Boolean value or expression)
+3. If the condition evaluates to true code which is right after the `?` executes
+4. The semicolon (`:`) act exactly as the `else` statement or the default 
+5. If the condition evaluate to false then the code after the semicolon executes
+
+Syntax: 
+
+```java
+boolean value/expression ? code to execute : code to execute
+boolean flag = 3 > 4 ? true : false; // false
+String isThreeMoreThanFour = 3 > 4 ? "Yes" : "No"; // No    
+```
+
+Fixing the above **present** and **absent** with a **ternary operator**:
+
+```java
+boolean isPresent = false;
+System.out.println(isPresent ? "Ahmed is present" : "Ahmed is absent");
+// Ahmed is absent
+```
 
 ## **Switch Statement**
 
-A **`switch` statement** is a control structure that allows a variable to be tested **against multiple cases**. It functions similarly to a series of `if-else` statements but is often **more readable and efficient** when dealing with multiple conditions.
+A **`switch` statement** is a control structure that allows a variable (a key) to be tested **against multiple cases**. It functions similarly to a series of `if-else` statements but is often **more readable and efficient** when dealing with multiple conditions.
 
 ### **How It Works:**
 
-1. The `switch` statement **evaluates an expression** (a variable or value).
-2. It **compares** the expression to each `case` value.
+1. The `switch` statement takes a key as a **value** or a **variable** in it's parenthesis.
+2. It **compares** the key against each `case` value.
 3. If a **matching case** is found, its corresponding block **executes**.
 4. The **`break` statement** ensures that execution **exits the switch block** after a match is found.
 5. If **no case matches**, the `default` block (if provided) **executes**.
@@ -264,12 +302,12 @@ A **`switch` statement** is a control structure that allows a variable to be tes
 ### **Syntax:**
 
 ```java
-switch (expression) {
+switch (key) {
     case value1:
-        // Code to execute if expression == value1
+        // Code to execute if expression = value1
         break;
     case value2:
-        // Code to execute if expression == value2
+        // Code to execute if expression = value2
         break;
     default:
         // Code to execute if no case matches
@@ -322,6 +360,8 @@ switch (userChoice) {
 **Use `switch`** when checking a **single variable** against **multiple known values**.
  **Use `if-else`** when conditions involve **ranges, logical expressions, or complex conditions**.
 
+[Try some more exercise]()
+
 ---
 
 ### Key Takeaways
@@ -350,4 +390,12 @@ switch (userChoice) {
   - **Nested `if` statements** allow for more specific condition checking.
   - The **inner `if` statement only runs** if the outer condition is **true**.
   - Be mindful of **proper indentation** to improve readability.
+- `ternary operator` shorthand for `if` and `else` statements
+  - The `?` check for the condition before it
+  - Right after the `?` is code that executes when the condition is true
+  - The `:` is the fallback, and the code after will execute whenever the condition is false
 - `switch` statements provide a **structured way** to evaluate **fixed values**.
+  -  A `switch` statement's fixed value is the `key`
+  -  Each `case` is tested against the `key`, and if it is right, then that case will execute; otherwise, the test will jump onto the next `case` 
+  - The `break` statement ends the test for each `case` when a given `case` is correct. 
+  -  The `default` will only execute when no other case passes the test.
