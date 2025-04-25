@@ -38,7 +38,7 @@ total = total / 2; // 1500
 
 // short hand
 int total = 0;
-total += 2000; // 200
+total += 2000; // 2000
 total -= 500; // 1500
 total *= 2000; // 3000
 total /= 2000; // 1500
@@ -73,7 +73,7 @@ The test condition serves as the **control mechanism** of the loop. As long as t
 ```java
 while (true) {
     //guess how many times this will be printed
-    System.out.println("Hello World!")
+    System.out.println("Hello World!");
 }
 ```
 
@@ -182,8 +182,6 @@ A `for` loop might appear a bit different from a `while` and a `do` loop syntact
 
   - The instructions that will be executed.
   - Optional increment or decrement.
-
-  
 
   
 
