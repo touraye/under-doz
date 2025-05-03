@@ -296,7 +296,7 @@ A `for` loop might appear a bit different from a `while` and a `do` loop syntact
   
   ```java
   for (int i = 0; i <= 100; i+= 10) {
-      System.out.print(i+ ": ");
+      System.out.println(i+ ": ");
   }
   // 0: 
   // 10: 
@@ -337,7 +337,13 @@ A `for` loop might appear a bit different from a `while` and a `do` loop syntact
   */
   ```
   
+  **How it works:**
   
+  * The **outer loop** will print `0` the first time and then pass execution to the **inner loop**.
+  * The expression `int end = i + 10;` within the **outer loop** controls the range of the **inner loop**.
+  * As the **inner loop** runs up to `end`, it will print numbers starting from `i` up to (but not including) `end`. 
+    * For example, after printing `0`, the **inner loop** will print `1, 2, 3, 4, 5, 6, 7, 8, 9`.
+  * After the **inner loop** finishes execution, control returns to the **outer loop**, where a line break is printed before the cycle starts again.
   
   
   
