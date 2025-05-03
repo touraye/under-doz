@@ -257,6 +257,88 @@ A `for` loop might appear a bit different from a `while` and a `do` loop syntact
   }    
   ```
   
+  **Nested Loop**
+  
+  A nested loop is a structure where one loop (the *inner loop*) is contained entirely within another loop (the *outer loop*). The outer loop acts as a parent, controlling how many times the inner loop executes. The inner loop only runs when the outer loop iterates – each cycle of the outer loop triggers a full execution of the inner loop.
+  
+  **How it works:**
+  
+  * **Outer Loop Initialization**:
+    The outer loop begins its execution first. It runs based on its own condition (e.g., `i < 5`).
+  * **Inner Loop Dependency**:
+    The inner loop executes only when the outer loop is in an active iteration. Each cycle of the outer loop triggers a full run of the inner loop.
+  * **Inner Loop Completion**:
+    The inner loop iterates until its own condition becomes false (e.g., `j < 3`). Once complete, control returns to the outer loop.
+  * **Outer Loop Continuation**:
+    The outer loop proceeds to its next iteration (if its condition is still true). This repeats until the outer loop’s condition fails.
+  
+  The key concept is that the **outer loop** begins execution, pauses, and allows the **inner loop** to run **until its condition becomes false**. Only after the inner loop completes does the outer loop resume its iteration.
+  
+  **Syntax:**
+  
+  ```java
+  // outer loop
+  for () {
+      // inner loop
+      for () {
+          
+      } // end of inner
+      
+  }// end of outer
+  
+  ```
+  
+  Some example:
+  
+  Imagine we want to print from `0` plus other `9` digits For example, 0: 1, 2, 3, 4, 5, 6, 7, 8, 9 and 10: 11, 12, ..., 19, and so on up to 99. 
+  
+  Lets implement a loop that will just print from `0` up to `100`:
+  
+  ```java
+  for (int i = 0; i <= 100; i+= 10) {
+      System.out.print(i+ ": ");
+  }
+  // 0: 
+  // 10: 
+  // 20: 
+  // 30: 
+  // 40: 
+  // 50: 
+  // 60: 
+  // 70: 
+  // 80: 
+  // 90: 
+  
+  ```
+  
+  The outer loop is response print number from 0..90. Below we will stitch another loop, inner loop that will print `0: 1, 2, 3, 4, 5, 6, 7,  8, 9`.
+  
+  ```java
+  for (int i = 0; i < 100; i+=10) {
+      System.out.print(i+ ": ");
+      int end = i + 10;
+      for (int j = i + 1; j < end; j++) {
+          System.out.print(j+ ", ");
+      }
+  
+      System.out.println();
+  }
+  /*
+  0: 1, 2, 3, 4, 5, 6, 7, 8, 9,
+  10: 11, 12, 13, 14, 15, 16, 17, 18, 19,
+  20: 21, 22, 23, 24, 25, 26, 27, 28, 29,
+  30: 31, 32, 33, 34, 35, 36, 37, 38, 39,
+  40: 41, 42, 43, 44, 45, 46, 47, 48, 49,
+  50: 51, 52, 53, 54, 55, 56, 57, 58, 59,
+  60: 61, 62, 63, 64, 65, 66, 67, 68, 69,
+  70: 71, 72, 73, 74, 75, 76, 77, 78, 79,
+  80: 81, 82, 83, 84, 85, 86, 87, 88, 89,
+  90: 91, 92, 93, 94, 95, 96, 97, 98, 99,
+  */
+  ```
+  
+  
+  
   
   
   [For more example code challenges]()
