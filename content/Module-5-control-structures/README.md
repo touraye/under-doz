@@ -12,6 +12,8 @@ Topic to covered:
 2. [Block statement](https://github.com/touraye/under-doz/blob/main/content/Module-5-control-structures/b-the-block-statement.md)
 3. [`if` statement](https://github.com/touraye/under-doz/blob/main/content/Module-5-control-structures/c-conditional-statments.md#if-statement)
 4. [Switch statement](https://github.com/touraye/under-doz/blob/main/content/Module-5-control-structures/c-conditional-statments.md#switch-statement)
-5. [While loop]()
-6. [Do while loop]()
-7. [For loop]()
+5. [While loop](https://github.com/touraye/under-doz/blob/main/content/Module-5-control-structures/d-iterative-statements.md#one-while-statement)
+6. [Do while loop](https://github.com/touraye/under-doz/blob/main/content/Module-5-control-structures/d-iterative-statements.md#two-do-while-loop)
+7. [For loop](https://github.com/touraye/under-doz/blob/main/content/Module-5-control-structures/d-iterative-statements.md#four-for-loop)
+8. [Exceptions](https://github.com/touraye/under-doz/blob/main/content/Module-5-control-structures/e-exception.md)
+
