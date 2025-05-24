@@ -147,3 +147,77 @@ Scanner input = new Scanner(System.in);
         System.out.println("Total Temp Sales: GMD" +tempTotalSales);}
 ```
 
+Upadate:
+
+```java
+package java1.project;
+
+import java.util.Scanner;
+
+public class ThresholdDsicountTracker {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        double totalSales = 0;
+        boolean threshold = false;
+        int discountedCustomers = 0;
+        double tempTotalSales = 0;
+
+        System.out.println("=== Shop Sales Tracker ===");
+
+        while (true) {
+            System.out.print("Enter sales: ");
+            String action = input.next();
+
+            //terminate the program
+            if (action.equals("q")) {
+                System.out.println("\nProgram ended by the shop owner.");
+                break;
+            }
+
+            // change user input from String to double:
+            double sale = Double.parseDouble(action);
+
+            tempTotalSales += sale; // accumulate temp sales
+
+            //apply discount
+            if (threshold && discountedCustomers <= 5) {
+                double discount = sale * 0.15; // calculate 15 percent discount
+                double discountedSale = sale - discount; // deduct discount from the original price
+                totalSales += discountedSale; // add discounted sales to total sales
+                discountedCustomers++; // increment the discounted customer count
+                System.out.println("Total Sales: GMD" +totalSales);
+                System.out.println(" ======== APPLYING DISCOUNT ========");
+                System.out.printf("Discounted Customer %d: Original = GMD%.2f, Discount = GMD%.2f, Final = GMD%.2f\n",
+                        discountedCustomers, sale, discount, discountedSale);
+                System.out.println();
+
+                //check for discount limit
+                if (discountedCustomers == 5){
+                    threshold = false; // set the threshold to false
+                    discountedCustomers = 0; // reset discounted customer
+                    tempTotalSales = 0; // reset tem total sale
+                    System.out.println("The First Five Customers Has Reached <<<<\n");
+                    System.out.println("Temp sales: GMD" +tempTotalSales);
+                }
+            }
+
+            //change weather threshold has reached
+            if (!threshold && tempTotalSales >= 1000){
+                threshold = true;
+                totalSales += tempTotalSales; // add the accumulated temp total sales to total sales
+                System.out.println("\n>>> Total sales reached D1000! Applying 15% discount to next 5 customers.\n");
+            }
+
+            //if (tempTotalSales > 0) totalSales += tempTotalSales;
+            System.out.println("End of total sales: " +totalSales);
+        }
+
+        input.close(); // close the scanner
+
+        System.out.println("******* REPORT *******");
+        System.out.println("Total Sales: GMD" +totalSales);
+        System.out.println("Total Temp Sales: GMD" +tempTotalSales);}
+}
+
+```
+
