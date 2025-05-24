@@ -373,7 +373,7 @@ String[][] studentGrades = {
         };
 ```
 
-The refactored version looks more cleaner and easy to read. We could use the Array declaration or initialization and later assigned value manually using *array bracket*. But, a simple approach it always the best.
+The refactored version looks much more cleaner and easy to read. We could use the Array declaration or initialization and later assigned value manually using *array bracket*. But, a simple approach it always the best.
 
 To iterate over a 2D Array require a nested `for` loop, **outer loop** for the **outer array**, and **inner loop** for the **inner array**. Let's start of with the **outer loop** to read the **outer array**
 
@@ -412,9 +412,9 @@ Amienata 94
 
 From the above code snippet:
 
-1. The **outer loop** is use iterate of the `studentGrades` array using the `i`; `studentGrades[i]` will give out the first **inner array**. 
+1. The **outer loop** is use iterate over the `studentGrades` array using the `i`; `studentGrades[i]` will give out the first **inner array**. 
 2. The **inner loop** iterate two time, the first iteration when `j = 0`
    1. The first iteration we have access to the first element which is the name of the student
    2. The second iteration `j = 1` and we have access to element at index 1 which is the grade of the corresponding student.
 3. After the first iteration of the **inner loop** a line break is happen when an empty print statement.
-4. The cycle will repeat for five times therefore, all the elements of the 2D array are printed
+4. The cycle will repeat for five times therefore, all the elements of the 2D array are printed.
