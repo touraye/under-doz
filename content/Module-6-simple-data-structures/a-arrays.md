@@ -155,6 +155,18 @@ System.out.println(Arrays.tostring(numbers));
 [10, 0, 20, 4, 0]
 ```
 
+Mind about try accessing element that do not exist on an Array. Am sure you have seen `IndexOutOfBoundException` which thrown when trying to access element at a wrong **index**. As discussed about exception, [`try` takes the code that might raise an exception and `catch` will print the error message]():
+
+```java
+try {
+    numbers[5] = 44;
+} catch(IndexOutOfBoundException e) {
+    System.out.println(e.getMessage)
+}
+```
+
+With `try` and a `catch` block your program will no longer crash of accessing element that is out of range.
+
 ## Initialing an Array
 
 As we have mentioned about creating a reference variable when declaring an Array and later creating an object pointing the reference variable. Here we learn a more straight forwarded way; creating reference variable along with the Array object or passing the actual values.
