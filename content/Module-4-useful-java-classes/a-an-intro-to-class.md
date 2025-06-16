@@ -8,6 +8,8 @@ A **Java file** can hold multiple **Java classes** but only one class can be pub
 
 In Java, a **class** is a blueprint for creating objects. It defines **fields (variables)** to store data and **methods (functions)** to define behavior. A class encapsulates data and logic, supporting **object-oriented programming** principles like **encapsulation, inheritance, and polymorphism**.
 
+A class is a template for object creation
+
 **Example of a typical Java:**
 
 ```java
