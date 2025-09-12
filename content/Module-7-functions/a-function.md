@@ -68,7 +68,7 @@ Functions are invoke or called by their names along with a mandatory parenthesis
 
 ![](a-function.assets/func-invoke-in-dedug-mood.png)
 
-As illustrated above; line number 9 had a pointer and when the execute reaches it  it jump to the `fun` function is define and execute the print statement found within its block. This is typical example how functions behaves.
+As illustrated above; line number 9 had a pointer and when the execute reaches it  it jump to the `fun` function is define and execute the print statement found within its block. This is typical example how functions behaves. Note! When a function finishing executing it is remove from the stack memory, and the flow of the program is restored to there the function was called.
 
 Function's that returns a values must have a return type as stated above and of course a return keyword that return a value of specify type. Lets turn the `func` function to return "I am a function" as a value rather than printing it. Meaning we have to change the function:
 
