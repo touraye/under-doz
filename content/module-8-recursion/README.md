@@ -11,5 +11,4 @@ Topics:
 * [Intro to recursion]()
 * [Recursion tree]()
 * [Problems with recursion]()
-* 
 

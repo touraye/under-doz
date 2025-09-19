@@ -66,13 +66,13 @@ The zeroth (`0th`) and the first (`1st`) are always given and to find the second
 * `4th` **Fibonacci #**: `2nd + 3rd` ~ `4th` = `1 + 2 ` : `4th` = `3`
 * `5th` **Fibonacci #**: `3rd + 4th` ~ `5th` = `2 + 3 ` : `4th` = `5`
 * `6th` **Fibonacci #**: `4th + 5th` ~ `6th` = `3 + 5 ` : `4th` = `8`
-* `7th` **Fibonacci #**: `5th + 6th` ~ `7th` = `5 + 8 ` : `47h` = `13`
+* `7th` **Fibonacci #**: `5th + 6th` ~ `7th` = `5 + 8 ` : `4th` = `13`
 
 Finding the `n-th` **Fibonacci number** cannot be that 
 
 The first two Fibonacci number are `0` and `1`. The rule of thumb is that second Fibonacci number is the sum of the previous which are `0` and `1` which is `1` so forth and on. So therefore, finding the Fibonacci number of any given is the sum of previous two; 
 
-The second Fibonacci number is `0 + 1 = 1`, third Fibo # is `1 + 1 = 2`, fourth Fibo # = `2 + 1 = 3`
+The second Fibonacci number is `0 + 1 = 1`, third Fibo # is `1 + 1 = 2`, fourth Fibo # = `2 + 1 = 3`.
 
 Writing an Algorithm to find out Fibonacci of any given number (`n`):
 

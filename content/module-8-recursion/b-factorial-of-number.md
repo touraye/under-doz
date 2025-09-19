@@ -1,19 +1,21 @@
 # Recursion In Practice
 
-It's time to dive into some practice aspect of recursion, we will go through some example, and try to solve them. Firstly, by understanding the problem, analyzing the problem, and lastly solving it with a recursion. So, its going to be a exhausting one.
+It's time to dive into some practice aspect of recursion, we will go through some examples, and try to solve them. Firstly, by understanding the problem, analyzing the problem, and lastly solving it with a recursion. So, its going to be a exhausting one.
 
   Topics:
 
 * Factorial of a number 
-* Fibonacci sequence
-* String reversal
-* Binary Search
+* Iteration
+* Recursion
+* Recursive tree
+* visualization
+* Call stack
 
 We will explore some of this problems:
 
 ## Factorial of a number
 
-The factorial of a number (`n`) is the product of all integers from `1` to that number. In other word factorial of a number is the sum of all positive integer less than or equal to that number and it written as `n! = n * (n- 1)!`. Suppose we want to find the factorial of `5` then we would multiple all the number from `5` up to `1` ; `5! = 5 * 4 * 3 * 2 * 1 = 120` and `4! = 4 * 3 * 2 * 1 = 24`
+The factorial of a number (`n`) is the product of all integers from `1` to that number or from that number to `1`. In other word factorial of a number is the sum of all positive integer less than or equal to that number and it written as `n! = n * (n- 1)!`. Suppose we want to find the factorial of `5` then we would multiple all the number from `5` up to `1` ; `5! = 5 * 4 * 3 * 2 * 1 = 120` and `4! = 4 * 3 * 2 * 1 = 24`
 
 Given the numbers like `4` and `5` we can simply analyze and write the possible answer, but what of factorial of `10` or even more. It's practically impossible to analyze without writing an algorithms. So, therefore will write an algorithm to find a factorial of any given number. As mentioned in the previous lessons we will be using recursion and iteration to solve problems. 
 
@@ -230,5 +232,12 @@ This shows how memory is allocated for each function call.
     +------------------------+
     ```
 
-## Binary Search
+**Key Takeaway**
 
+* Factorial of number
+  * Iterative approach
+  * Recursive approach
+* Visualization of iterative and recursive approach
+  * Recursive tree
+  * Call Stack
+* 
