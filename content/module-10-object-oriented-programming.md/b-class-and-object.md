@@ -54,6 +54,25 @@ If **Student** is a **class**. The question is what present a **Class**? From th
 
 What is an **instance of a class**? This still refers to an **object**. Object are tangible while **class** are just a rules that defines the properties and behavior of a class. 
 
+#### Object Creation
+
+An object creation happen when a **class** is *instantiated* by using the **new** keyword or operator. In the above we haven't really create **objects**, rather we have created references variable: `student, studnet2` of type **Student**. 
+
+Let's begin creating **objects**
+
+```java
+public static void main(String[] args) {
+	Student stu1 = new Student();
+     stu1.rollNumber = 1390;
+     stu1.name = "Hali Mass";
+     stu1.mark = "85";
+}
+```
+
+The `new Student();` is the actual *instantiation* of a **class**, the **object** is `stu1`. The **new** keyword dynamically allocate memory at **runtime** and return a **references** to it. Remember about the **stack and heap memory**, objects are stored in the **heap memory** but there references are stored in the **stack memory**. 
+
+Memory allocation happens during object creation; **compile time:** `Student stu1` and **runtime:** `new Student();`.
+
 #### Property and Behavior
 
 A **class** defines property and behavior for **objects** at the **class ** level and a object have to provide those values. You can think of creating  empty variable that will some value later in your program. 
@@ -62,11 +81,15 @@ Property defines what a **object  has** while a behavior define what a **object 
 
 After defining the a **property and behavior** of a *car* we can begun constructing a **Car class**. The properties are going to store in an **instance variable** while behaviors are going to be define in a **function (method)**.
 
-A **`car` has and `car` can do ** make up a **Car class**. Construct a class with the following **properties and behaviors**:
+A **`car` has and `car` can do ** make up a **Car class** so those any other **class** you will ever construct or create. 
 
-* Properties of a Car: `make, model, engine type, number of wheel`
-* Behavior of a Car: `start, move, break`
+Construct a class with the following **properties and behaviors**:
+
+1. Create a **Car class**
+2. Define properties of a **Car**: `make, model, engine type, number of wheel`
+3. Define behavior of a **Car**: `start, move, break`
   * Print the action being perform in the console.
-* Create a Car object with any of your choice as the name.
-* 
+4. Create a Car object with any of your choice as the name.
+5. Assign values to the properties of your car
+6. Call the behaviors of your car.
 
