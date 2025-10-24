@@ -14,7 +14,8 @@ To best explain these four principles of **OOP** we will have to design a School
        class Person {
           private String name;
           private int age;
-      
+      	
+           // constructor
           public Person(String name, int age){
               this.name = name;
               this.age = age;
@@ -26,7 +27,7 @@ To best explain these four principles of **OOP** we will have to design a School
 
 2. **Inheritance:** 
 
-   1. **Definition**: Inheritance allows a new class (subclass or derived class) to inherit the properties and behavior (methods) of an existing class (superclass or base class). The subclass can also add its own properties and methods or override the methods of the superclass.
+   1. **Definition**: Inheritance allows a new class (subclass or derived class) to inherit the properties and behavior of an existing class (superclass or base class). The subclass can also add its own properties and behaviors or override the behaviors of the superclass.
 
    2. **Purpose**: This principle promotes code reusability and establishes a natural hierarchy between classes.
 
@@ -49,7 +50,7 @@ To best explain these four principles of **OOP** we will have to design a School
               this.salary = salary;
           }
           
-          // Sub-class define its method
+          // Sub-class define its behavior
           public boolean isQualified(){
               return this.yearOfExperience > 2;
           }
@@ -69,7 +70,7 @@ To best explain these four principles of **OOP** we will have to design a School
               this.gpa = gpa;
           }
           
-          // Sub-class define its method
+          // Sub-class define its behavior
           public boolean isPromoted(){
               return this.gpa > 2.0;
           }
@@ -129,7 +130,7 @@ To best explain these four principles of **OOP** we will have to design a School
       ```
 
 
-   **Compile time polymorphism:** the contract is that two or more methods can share the same name, the same return-type, and the same amount of parameters, but of different types.
+   **Compile time polymorphism:** the contract is that two or more functions can share the same name, the same return-type, and the same amount of parameters, but of different types.
 
    ```java
 class Cal {
@@ -204,3 +205,5 @@ public class Main {
       * As far as this challenge is concern you need to create sub-classes namely; `Desktop`, `Labtop`, ` Tablet`, and `SmartPhone`. Each sub-class will inherit from super-class(`Computer`).
       * At this stage you can see how **encapsulation** work, hence we have wrap all what is common to computing devices into a single unit(class) and provide method that operates on its data(attribute).
       * For each sub-class override all the method define by the parent class. For example the sleep behavior might not be the same for all of the computing devices, overrides the method for each sub-class by print how each sleeps.
+      * Create object for each **subclass** in your `Tester` class. The reference should be the **parent class** while the constructor derived from the **subclass**  itself. Examine the **runtime polymorphism** 
+      * 
