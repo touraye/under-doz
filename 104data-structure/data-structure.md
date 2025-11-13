@@ -1,6 +1,6 @@
 # Data Structure
 
-A **data structure** is a specialized way of organizing, managing, and storing data so that it can be accessed and modified efficiently. It defines how data is arranged in memory and the operations that can be performed on that data. The choice of a data structure directly impacts the efficiency of algorithms in terms of time and space complexity.
+A **data structure** is a specialized way of organizing, managing, and storing data so that it can be accessed and modified efficiently. It defines how data is **arranged in memory** and the **operations that can be performed** on that data. The choice of a data structure directly impacts the efficiency of algorithms in terms of time and space complexity.
 
 ### Key Characteristics of Data Structures:
 

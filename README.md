@@ -132,12 +132,26 @@ Ebrima Touray
 **Java 2**
 
 
-* Interface
-* Enums
-* Generic
-* I/O and File handling
-* Data Structure and Algorithms
 * Recursion and Fibonacci Sequence
-* Searching Algorithms
+
+* Big-O Notation
+
+* Sorting algorithms
+
+* Streams
+
+* I/O and File handling
+
+* Object Oriented Revisit
+
+* Interface
+
+* Enums
+
+* Generic
+
+* Data Structure and Algorithms
+
+  
 
 [Check lesson one](https://github.com/touraye/under-doz/blob/main/101-programming/L101-the-way-we-program.md)

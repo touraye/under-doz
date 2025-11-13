@@ -1,4 +1,4 @@
-# Exercise 
+# Exercise Assignment 2
 
 Create a function that will determine the Grade Point Average (GPA) of a student. This function should receive a mark of a course and return the GPA value for the course.
 

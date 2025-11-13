@@ -272,9 +272,9 @@ Literal in Java:
 
 ## What is a Variable
 
-We have discus broadly about variable concept in the prevision lessons now lets see it in Java. A   variable in Java can be really different hence Java static type language.
+We have discus broadly about variable concept in the prevision lessons now lets see it in Java. A   variable in Java can be really different hence Java is a static type language.
 
-Well, what do mean by that? In a static type language a variable most a data type. Java is a static type language which why before you can give a variable a name or a value you have specify the data type.
+Well, what do mean by that? In a static type language a variable most have a data type. Java is a static type language which why before you can give a variable a name or a value you have specify the data type.
 
 ```java
 String course = "Java programming";

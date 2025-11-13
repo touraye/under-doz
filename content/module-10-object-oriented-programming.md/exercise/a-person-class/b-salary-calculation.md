@@ -1,4 +1,4 @@
-# Exercise
+# Exercise Lab 1
 
 Your Teacher Class defines some behavior, among them is `isQualified`, which performs a comparison operation on the `yearsOfExperience ` value against `4`. 
 

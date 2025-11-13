@@ -22,7 +22,7 @@ Below is a table showing 5 relational or comparison operator and their descripti
 ```java
 /*
 -----------------------------------------------------
-Operator		 |	Examples	 |  Return value			
+Operator		|	Examples	|  Return value			
 >				|	1 > 2		|  false
 <				|	1 < 2		|  true
 >=				|	2 >= 2		|  true

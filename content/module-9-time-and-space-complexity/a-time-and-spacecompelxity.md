@@ -50,7 +50,7 @@ Time and space have different variation of complexities:
       public static void main(String[] args) {
           int[] arr = {10, 20, 30, 40};
           // Accessing element takes constant time
-          System.out.println("Element at index 2: " + arr[2]); 
+          System.out.println("Element at index 2: " + arr[3]); 
       }
   }
   

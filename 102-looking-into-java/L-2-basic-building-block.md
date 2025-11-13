@@ -1,6 +1,6 @@
 # Basic Building Of Java Application
 
-The basic building block of a Java program:
+The basic building block of a Java program are thing that make up a Java program, without which you can have a valid Java program. At least every Java program must consist of the following:
 
 * Class 
 * Statement
@@ -33,9 +33,9 @@ public class Main {
 
 ## Main Method
 
-The **main method** is a `static` method which serve as the entry point of our Java program or application. If you used an IDE to create a new Java class; you will notice that there are no *green play button* around and if you right-click for option you will not see Run. Meaning the IDE detect that your class doesn't have a main method therefore it would give you chance to run your codes. Therefore you can create variables and methods there no problem, but a print statement outside a method will show you error.
+The **main method** is a `static` method which serve as the entry point of our Java program or application. If you used an IDE to create a new Java class; you will notice that there are no *green play button* around and if you right-click for option you will not see Run in the context menu. Meaning the IDE detect that your class doesn't have a main method therefore it wouldn't give you the chance to run your codes. Therefore you can create variables and methods there no problem, but a print statement outside a method will show you error.
 
-If you create class without a main method and try running it in terminal/git bash it throw error. We will talk more these kind class and their use cases later lessons.
+If you create class without a main method and try running it in command prompt /terminal it throw error. We will talk more these kind class and their use cases later lessons.
 
 Note! *a class exist in your program without a main method. more about in OOP section*
 

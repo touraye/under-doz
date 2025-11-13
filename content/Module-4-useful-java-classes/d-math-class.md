@@ -124,6 +124,7 @@ double sinVal = Math.sin(Math.PI/2);   // 1.0 (sin(90°))
    ```
 
 3. **Geometry Calculations**:
+   
    ```java
    // Circle area calculation
    double radius = 7.5;
