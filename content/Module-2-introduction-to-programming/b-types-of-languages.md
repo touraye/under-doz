@@ -1,5 +1,22 @@
 # Types of Languages
 
+**Introduction (What Will Be Learned)**
+
+* Definition of formal language
+* Components of a language:
+  * Token, Syntax, and Parsing
+* Interaction flow
+* Types of Programming Languages:
+  * Lower level languages
+  * higher level languages
+  * Scripting Languages, 
+  * Declarative languages
+  * Domain-Specific Languages
+* Different approaches to programming
+  * Procedural programing 
+  * Object Oriented programming
+  * Functional programming 
+
 Before we dive into the types of programming language it worth spending time understand what entails a formal language hence it is were our interest lies greatly. 
 
 #### Formal Language
@@ -86,7 +103,6 @@ Formal languages are structured systems used in computer science, particularly i
      if (a > b) { }// Comparing int with string.
     ```
 
-    
 
 ### Interaction Flow:
 
@@ -144,10 +160,6 @@ Tailored for specific tasks rather than general-purpose programming.
   
 
 Each type of programming language serves different needs, and the choice depends on the application domain and execution requirements.
-
-
-
-Let's dive deeper into **Procedural, Object-Oriented, and Functional Programming**, their principles, characteristics, and examples.
 
 ------
 

@@ -1,5 +1,32 @@
 # Getting In To Programming
 
+**Introduction (What Will Be Learned)**
+
+* Basic of programming language
+  * Values
+  * Types
+* Variable concept
+  * variable life cycle
+  * what's a variable
+  * Declaration, initialization, and Reassignment
+  * Constants
+* Types of languages
+  * Static typed language
+  * Dynamic typed language
+* Operator
+  * Types of operators
+* Rules of precedence
+* Operands
+* Expression
+* Statement
+  * Types of statement
+* Algorithm 
+* Errors
+  * Types of errors
+* Exceptions
+  * Types of exception
+* Debugging
+
 In the must simple definition programming is a way human communicate to a machine(computer systems), this communicate are not just mere words but detail instructions. We as human express our wants and desires through instructions that are understandable by computer. The [the program execution flows]() explain how our instruction get executed to the level which a computer get to be doing what we want it to do.
 
 ## Values and Types
@@ -250,12 +277,12 @@ Example: `result = 3 + 2;`
 
 ## Expression
 
-An **expression** is a combination of **values, variables, operators, or function calls** that evaluates to a new value. Expressions are essential in programming as they generate and manipulate data.
+An **expression** is a combination of **values, variables, operators, or function calls** that evaluates to a new **value**. Expressions are essential in programming as they generate and manipulate data.
 
 Example:
 
-```python
-x = (5 + 3) * 2;  # Expression: (5 + 3) * 2
+```java
+int x = (5 + 3) * 2;  # Expression: (5 + 3) * 2
 ```
 
 - This expression evaluates to `16`, which is then assigned to `x`.
@@ -331,8 +358,8 @@ A **logical error** does not prevent the program from running but causes it to p
 #### **Example of a Logical Error:**
 
 ```java
-pythonCopyEdit# Intended operation: addition
-result = 5 * 3;  # Incorrectly using '*' instead of '+'
+Intended operation: addition
+int result = 5 * 3;  # Incorrectly using '*' instead of '+'
 ```
 
 - The program **runs without errors**, but the output is **incorrect** because multiplication was used instead of addition.
