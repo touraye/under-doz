@@ -36,9 +36,9 @@ boolean isAdult = age >= 18; // Expression: `age >= 18` → evaluates to true/fa
 String name = "Ahmed".toUpperCase(); // Expression: `"Ahmed".toUpperCase()` → "AHMED"  
 ```
 
-Exercise:
+**Exercise 1:**
 
-Develop  a Java program and highlight the expression part and what it will evaluate to.
+* Develop a Java program that contains multiple expressions. For each expression, indicate the expression itself and specify the value produced after evaluation.
 
 ---
 
@@ -70,11 +70,11 @@ if (age >= 18) { // Control flow statement
 }  
 ```
 
-**Exercise:**
+**Exercise 2:**
 
-* Develop a Java statement that assign value to a variable.
-* Write a Java statement that involve an assignment as well as an expression.
-* Write a statement that involves a method invocation.
+* Create a statement that **declares and assigns** a value to a variable.
+* Write a statement where the **right-hand side is an expression** whose result is assigned to a variable.
+* Write a statement that **calls (invokes) a method** to perform an action.
 
 ---
 

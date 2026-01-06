@@ -1,5 +1,12 @@
 # String Manipulation
 
+**Introduction (What Will Be Learned)**
+
+* String
+  * String concatenation
+  * creating new String
+  * String methods
+
 String belong to non-primitive data type. String and other non-primitive have predefined methods on them which can be really useful to us.
 
 Before we move into String let's look at **concatenation**. Concatenation is process of printing a String within a double quotation along with a variable or an expression.
