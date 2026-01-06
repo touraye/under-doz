@@ -1,21 +1,24 @@
 # Expression And Statement
 
+**Introduction (What Will Be Learned)**
+
+* **Expressions**: Evaluate to values (arithmetic, boolean, method calls).
+* **Statements**: Perform actions (variable declaration, loops, conditionals).
+* **Syntax Rules**: Role of semicolons (`;`), braces (`{}`).
+* **Interplay**: How expressions are embedded within statements (e.g., `if (x + 5 > 10)`).
+* **Impact on Code**: Readability, performance, and error prevention.
+
 Statements and expressions are fundamental to programming. Expressions compute values (e.g., `5 + 3`), while statements execute actions (e.g., `if (x > 0) { ... }`). Their distinction ensures proper syntax, program flow, and logic execution. Mastering these elements is essential for writing efficient, readable code and leveraging Java’s object-oriented capabilities.
 
-### **What Should Be Learned**
-
-1. **Expressions**: Evaluate to values (arithmetic, boolean, method calls).
-2. **Statements**: Perform actions (variable declaration, loops, conditionals).
-3. **Syntax Rules**: Role of semicolons (`;`), braces (`{}`).
-4. **Interplay**: How expressions are embedded within statements (e.g., `if (x + 5 > 10)`).
-5. **Impact on Code**: Readability, performance, and error prevention.
-
 ### **1. Expressions**  
-**Definition**: A fragment of code that **evaluates to a single value** (e.g., a number, string, boolean, or object).  
-**Key Traits**:  
+**Definition**
+ An **expression** is a piece of code that is **evaluated by the program to produce a single value**, such as a number, string, boolean, or object.
 
-- Can be part of a larger statement.  
-- Do *not* end with a semicolon (`;`).  
+**Key Characteristics**
+
+- Produces exactly **one result** after evaluation.
+- Can be used as part of a **larger statement**.
+- Does **not** end with a semicolon (`;`) on its own.
 
 #### **Categories of Expressions**  
 | **Type**            | **Example**           | **Evaluates To**        |
@@ -28,19 +31,26 @@ Statements and expressions are fundamental to programming. Expressions compute v
 
 #### **Examples**  
 ```java  
-int result = 10 + 5;      // Expression: `10 + 5` → evaluates to 15  
+int result = 10 + 5; // Expression: `10 + 5` → evaluates to 15  
 boolean isAdult = age >= 18; // Expression: `age >= 18` → evaluates to true/false  
 String name = "Ahmed".toUpperCase(); // Expression: `"Ahmed".toUpperCase()` → "AHMED"  
 ```
 
+Exercise:
+
+Develop  a Java program and highlight the expression part and what it will evaluate to.
+
 ---
 
 ### **2. Statements**  
-**Definition**: A **complete unit of execution** that performs an action. Statements often contain expressions but do *not* evaluate to a value. 
-**Key Traits**:  
+**Definition**
+ A **statement** is a **complete unit of execution** in a program that performs an action. While statements may contain expressions, they **do not themselves evaluate to a value**.
 
-- End with a semicolon (`;`).  
-- Control program flow, declare variables, or modify state.  
+**Key Characteristics**
+
+- Represent a full instruction executed by the program.
+- Typically **end with a semicolon (`;`)**.
+- Are used to **declare variables**, **control program flow**, or **modify program state**.
 
 #### **Categories of Statements**  
 | **Type**         | **Example**                           | **Purpose**           |
@@ -54,11 +64,17 @@ String name = "Ahmed".toUpperCase(); // Expression: `"Ahmed".toUpperCase()` → 
 
 #### **Examples**  
 ```java  
-int age = 25;                 // Declaration + assignment statement  
-if (age >= 18) {              // Control flow statement  
+int age = 25; // Declaration + assignment statement  
+if (age >= 18) { // Control flow statement  
     System.out.println("Adult"); // Method call statement  
 }  
 ```
+
+**Exercise:**
+
+* Develop a Java statement that assign value to a variable.
+* Write a Java statement that involve an assignment as well as an expression.
+* Write a statement that involves a method invocation.
 
 ---
 

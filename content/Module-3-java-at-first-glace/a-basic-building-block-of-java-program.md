@@ -1,17 +1,18 @@
 # Basic Building Of Java Application
 
+**Introduction (What Will Be Learned)**
+
+* **Essential Components:**
+  * Class Declaration
+  * Main Method
+  * Syntax and Compilation Unit
+* **Common Additional Components:**
+  * Package Declaration
+  * Import Statements
+  * Method and Fields
+  * Access Modifiers
+
 The foundational components of a Java application are the structural and syntactic elements required for a valid, executable program. Every Java program adheres to object-oriented principles and must include at minimum: a class declaration encapsulating program logic, a `main` method as the JVM entry point (with signature `public static void main(String[] args)`), and syntactically correct statements within a compilation unit. Optional but common elements include package declarations, import statements, and method/field definitions, all governed by Java’s strict syntax rules and type system.
-
-1. **Essential Components:**
-   * Class Declaration
-   * Main Method
-   * Syntax and Compilation Unit
-
-2. **Common Additional Components:**
-   * Package Declaration
-   * Import Statements
-   * Method and Fields
-   * Access Modifiers
 
 ### **Essential Components**  
 

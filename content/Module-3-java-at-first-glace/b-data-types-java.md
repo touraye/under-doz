@@ -1,5 +1,12 @@
 # Data Types In Java
 
+**Introduction (What Will Be Learned)**
+
+* Data types in Java
+* Types of data types
+  * Primitive and Referential (none primitive)
+* Why data types matters
+
 In previous lessons, we explored [variables](https://github.com/touraye/under-doz/blob/main/content/Module-2-introduction-to-programming/c-getting-into-programming.md#the-variable-concept), including the various data types programs can handle, such as numeric values, textual content, and boolean (true/false) values. We briefly covered how programs interact with these foundational data types. Now, let’s delve into Java’s specific data types, which include primitive types and object-oriented structures.
 
 **What are Data Types in Java**
@@ -14,7 +21,7 @@ Here's a structured explanation of **data types in Java**:
 ---
 
 ### **1. Primitive Data Types**  
-Predefined, non-object types that store raw values directly in memory.  
+**Primitive data types** are built-in data types that hold simple, single values. They store the actual value directly in memory rather than references to objects, making them efficient and easy to use.
 
 | **Type**  | **Size** | **Description**                 | **Example**                         |
 | --------- | -------- | ------------------------------- | ----------------------------------- |
@@ -37,7 +44,7 @@ Predefined, non-object types that store raw values directly in memory.
 ---
 
 ### **2. Reference Data Types**  
-Hold references (memory addresses) to dynamically created objects (instances of classes).  
+**Reference data types** hold references to objects that are created dynamically in memory. The variable does not contain the object itself, but a pointer to where the object is stored. 
 
 | **Type**       | **Description**                   | **Example**                              |
 | -------------- | --------------------------------- | ---------------------------------------- |
@@ -80,7 +87,10 @@ public class DataTypesExample {
 
 ---
 
+More about [stack and head memory]()
+
 ### **Why Data Types Matter**  
+
 1. **Memory Efficiency**: Allocates the right amount of memory (e.g., `byte` vs. `int`).  
 2. **Type Safety**: Prevents invalid operations (e.g., `int + String` is disallowed).  
 3. **Performance**: Primitives are faster for calculations.  
