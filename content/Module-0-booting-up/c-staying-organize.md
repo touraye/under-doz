@@ -10,7 +10,10 @@ Part of being a student is to stay organize which cannot be overstated as a comp
 
 **Account:**
 
-1. An Gmail account necessary hence we will be utilizing the Google Classroom for posting and submitting of assignment, labs and project.
-2. GitHub account to join the classroom; `https://classroom.github.com/classrooms/112712002-mdi-java-programming`
+1. An Gmail account
+2. Create a GitHub account ([visit GitHub](visit github.com))
+   1. Access course material.
+   2. Submitting your assignment and projects.
+
 3. WhatsApp account for interaction with class and staying update on to the course.
 
