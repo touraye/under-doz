@@ -1,6 +1,6 @@
 # Installation Of Basic Software
 
-This unit will guide on the software to install
+This unit will guide on the software to install: java and IntelliJ
 
 ## How To Download Java
 
@@ -60,3 +60,21 @@ These are for all Operating Systems. Let's see whether Java is successfully inst
 * Type `java -version` and press on `enter key` this should show you the version of Java you have installed. Our case will be `java version "21" Date and  LTS`.
 * Type `java` and press on the `enter key` a man-page will appear with some other useful commands. Believe it or not, we are done.
 
+## How to install IntelliJ
+
+
+
+Visit [JetBrains.com](https://www.jetbrains.com/idea/download/other/#releases-2025), select your operating system, choose the **Community Edition**, and download it. At the time of writing, the latest versions available under the Community Edition are **version 2025.2 and earlier**.
+
+## Windows Installation Guide
+
+- **Make sure to download the `(64-bit) .exe` installer**.
+- Once downloaded, double-click the `.exe` file and follow the on-screen installation steps.
+
+------
+
+## macOS Installation Guide
+
+- Download the **`.dmg`** file.
+- Open the downloaded `.dmg` file and drag the application into the **Applications** folder.
+- Launch the app from **Applications** to complete setup.
