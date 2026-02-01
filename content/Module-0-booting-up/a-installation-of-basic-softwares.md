@@ -6,14 +6,14 @@ This unit will guide on the software to install
 
 Well, there are many resources available on the internet, but I recommend using **Oracle** since they maintain Java. Java has evolved significantly, with many new features added to the language.
 
-Java 23 is the newest version as of now, but I recommend [downloading Java 21](https://www.oracle.com/java/technologies/downloads/#java21). Java 21 is the current standard version and comes with long-term support (LTS). 
+Java 25 is the newest version as of now, but I recommend [downloading Java 25](https://www.oracle.com/java/technologies/downloads/). Java 25 is the current standard version and comes with long-term support (LTS). 
 
 What do I mean by long-term support(LTS):
 Software development involves updating existing features, adding new ones, and deprecating outdated ones. Every software goes through these phases, and Java is no exception. Java 21 includes the latest updated features that have been thoroughly tested and are free from bugs, making it suitable for real-time software development. However, the newest version, Java 22, does not have long-term support (LTS).
 
 A version that does not have long-term support is released to the general public for testing. People will use it, report any issues, and the maintainers will fix those issues. These kinds of versions are not typically used by companies or individuals to build software.
 
-To download Java on your Computer please follow this link [download java 17](https://www.oracle.com/in/java/technologies/downloads/#jdk17-windows), select your OS type , and proceed with your download.
+To download Java on your Computer please follow this link [download java ](https://www.oracle.com/java/technologies/downloads/), select your OS type , and proceed with your download.
 
 ### Why Do You Need To Download And Install Java 
 
