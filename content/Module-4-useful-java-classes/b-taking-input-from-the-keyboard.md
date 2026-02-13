@@ -44,14 +44,14 @@ public class Main {
         Scanner scanner = new Scanner(System.in);  
 
         System.out.print("Enter your name: ");  
-        String name = scanner.nextLine();  // Read a full line  
+        String name = scanner.nextLine();// Read a full line  
 
         System.out.print("Enter your age: ");  
-        int age = scanner.nextInt();       // Read an integer  
+        int age = scanner.nextInt();// Read an integer  
 
         System.out.println("Hello, " + name + "! You are " + age + " years old.");  
 
-        scanner.close(); // Always close the Scanner to free resources  
+        scanner.close();// Always close the Scanner to free resources  
     }  
 }  
 ```
