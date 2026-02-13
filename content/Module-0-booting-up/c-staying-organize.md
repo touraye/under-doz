@@ -4,7 +4,7 @@ Part of being a student is to stay organize which cannot be overstated as a comp
 
 **Devices:**
 
-1. Every student is required to have a laptop with a OS(Windows(10 or 11), Linux or Mac).
+1. Every student is required to have a **laptop** with a OS(Windows(10 or 11), Linux or Mac).
 2. Smart phone
 3. External storage devices(USB or HD)
 
