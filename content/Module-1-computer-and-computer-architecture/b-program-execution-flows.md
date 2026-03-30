@@ -12,7 +12,7 @@ The program you interact with goes through a series of steps. These steps are in
 
 ## Writing Program Instruction:
 
- The very first phase is writing code (program instruction) using a high-level programming language (e.g., Java, Python, C, JavaScript). This is done by writing an instruction, which is referred to as source code. 
+ The very first phase is writing code (program instruction) using a **high-level programming language** (e.g., Java, Python, C, JavaScript). This is done by writing an instruction, which is referred to as source code. 
 
 ### Source Code
 
@@ -25,7 +25,7 @@ Source code programming is writing instructions in a programming language to cre
 
 ## Translation
 
-Translation is the act of turning a high-level code written by a programmer into machine code. This process can be done differently depending on the type of programming language being used. The code is either being interpreted or compiled:
+Translation is the act of turning a high-level code written by a programmer into machine code. This process can be done differently depending on the **type of programming language** being used. The code is either being interpreted or compiled:
 
 ### Interpreter
 

@@ -21,7 +21,7 @@ Here's a structured explanation of **data types in Java**:
 ---
 
 ### **1. Primitive Data Types**  
-**Primitive data types** are built-in data types that hold simple, single values. They store the actual value directly in memory rather than references to objects, making them efficient and easy to use.
+**Primitive data types** are built-in data types that hold **simple, single** values. They store the actual value directly in memory rather than references to objects, making them efficient and easy to use.
 
 | **Type**  | **Size** | **Description**                 | **Example**                         |
 | --------- | -------- | ------------------------------- | ----------------------------------- |

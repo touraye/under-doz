@@ -4,7 +4,7 @@
 
 * Basic of programming language
   * Values
-  * Types
+  * Types (Data Type)
 * Variable concept
   * variable life cycle
   * what's a variable

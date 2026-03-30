@@ -69,7 +69,7 @@ Artificial languages intentionally designed for specific domains, such as mathem
 **Examples**:
 
 - **Mathematics**: Symbols like ∀∀ (for all), ∑∑ (summation).
-- **Programming Languages**: Python, C++, SQL.
+- **Programming Languages**: Java, JavaScript, Python, C++, SQL.
 - **Logic**: Propositional logic, formal proof systems.
 
 **Creation**:
