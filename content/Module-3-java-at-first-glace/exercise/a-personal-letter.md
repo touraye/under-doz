@@ -1,8 +1,8 @@
-# **Assignment: String Concatenation in Java**
+# **Exercise: String Concatenation in Java**
 
 ### **Objective**
 
-The goal of this assignment is to help you practice **declaring String variables** and **combining them using string concatenation** to produce a meaningful and readable output.
+The goal of this exercise is to help you practice **declaring String variables** and **combining them using string concatenation** to produce a meaningful and readable output.
 
 ------
 
@@ -50,7 +50,7 @@ When the program runs, it should display a **clear and complete self-introductio
 
 ------
 
-### **Assessment Criteria**
+### **Exercise Criteria**
 
 - Correct use of `String` variables
 - Proper string concatenation
