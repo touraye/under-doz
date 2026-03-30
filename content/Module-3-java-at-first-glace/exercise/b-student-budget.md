@@ -15,7 +15,7 @@ This reinforces the idea that programming is not just syntax, but a way of **mod
 
 ------
 
-## **Assignment: College Student Budget Program**
+## **Exercise: College Student Budget Program**
 
 ### **Objective**
 
@@ -79,7 +79,7 @@ When the program runs, it should print a **well-formatted budget report** simila
 
 ------
 
-### **Assessment Criteria**
+### **Criteria**
 
 - Correct choice of data types
 - Proper use of operators and expressions
